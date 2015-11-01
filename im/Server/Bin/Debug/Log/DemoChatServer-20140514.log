@@ -1,0 +1,463 @@
+2014-05-14 03:00:00 [1516] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140506 result:0
+2014-05-14 03:00:00 [4976] warn: recursive rmDir './Data/private\20140506'
+2014-05-14 09:23:01 [3300] |------------------------------------------------|
+2014-05-14 09:23:01 [3300] |                  DemoChatServer                |
+2014-05-14 09:23:01 [3300] |------------------------------------------------|
+2014-05-14 09:23:02 [3300] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140506 result:0
+2014-05-14 10:03:35 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.79:49511
+2014-05-14 10:04:13 [3300] debug: DB_Authenticate::onFinished acct:0 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadFriends::onFinished acct:57 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroups::onFinished acct:57 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:38 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:42 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:45 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:49 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:54 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:44 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:46 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:40 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:48 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:50 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:51 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:52 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:39 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:41 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:43 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:47 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:53 result:0
+2014-05-14 10:04:13 [3300] debug: DB_LoadGroupDetail::onFinished grp:55 result:0
+2014-05-14 10:04:44 [3980] warn: Server TCP Socket 564 remote: 192.168.3.79:49511 peer closed, close it
+2014-05-14 10:04:44 [3980] debug: Server TCP Socket 564 remote: 192.168.3.79:49511 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 10:04:44 [3300] Client closed----------, Server TCP Socket 564 remote: 192.168.3.79:49511
+2014-05-14 10:04:59 [3944] warn: Server TCP Socket 576 remote: 192.168.3.79:49516 peer closed, close it
+2014-05-14 10:04:59 [3944] debug: Server TCP Socket 576 remote: 192.168.3.79:49516 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 10:05:02 [3544] warn: destroy Server TCP Socket 564 remote: 192.168.3.79:49511
+2014-05-14 10:05:02 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:49516
+2014-05-14 10:05:02 [3300] error: login, Server TCP Socket 576 remote: 192.168.3.79:49516 already has an account acct:57 mz1
+2014-05-14 10:05:02 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:49516
+2014-05-14 10:05:03 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.79:49520
+2014-05-14 10:05:07 [3544] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:49516
+2014-05-14 10:05:13 [3400] warn: Server TCP Socket 564 remote: 192.168.3.79:49520 peer closed, close it
+2014-05-14 10:05:13 [3400] debug: Server TCP Socket 564 remote: 192.168.3.79:49520 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 10:05:13 [3300] Client closed----------, Server TCP Socket 564 remote: 192.168.3.79:49520
+2014-05-14 10:05:16 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:49524
+2014-05-14 10:05:18 [3544] warn: destroy Server TCP Socket 564 remote: 192.168.3.79:49520
+2014-05-14 10:05:35 [3944] warn: Server TCP Socket 576 remote: 192.168.3.79:49524 peer closed, close it
+2014-05-14 10:05:35 [3944] debug: Server TCP Socket 576 remote: 192.168.3.79:49524 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 10:05:35 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:49524
+2014-05-14 10:05:37 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.79:49527
+2014-05-14 10:05:40 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:49524
+2014-05-14 10:07:01 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.88:2383
+2014-05-14 10:07:14 [3300] debug: DB_LoadFriends::onFinished acct:91 result:0
+2014-05-14 10:07:14 [3300] debug: DB_LoadGroups::onFinished acct:91 result:0
+2014-05-14 10:07:14 [3300] debug: DB_LoadGroupDetail::onFinished grp:56 result:0
+2014-05-14 10:14:38 [3400] warn: Server TCP Socket 564 remote: 192.168.3.79:49527 peer closed, close it
+2014-05-14 10:14:38 [3400] debug: Server TCP Socket 564 remote: 192.168.3.79:49527 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 10:14:38 [3300] Client closed----------, Server TCP Socket 564 remote: 192.168.3.79:49527
+2014-05-14 10:14:43 [3544] warn: destroy Server TCP Socket 564 remote: 192.168.3.79:49527
+2014-05-14 10:14:45 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:49563
+2014-05-14 10:16:40 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 10:43:03 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 10:44:10 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 10:44:27 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 10:48:17 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 10:53:21 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 10:54:56 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 11:02:41 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 11:04:06 [3904] warn: Server TCP Socket 648 remote: 192.168.3.79:49563 peer closed, close it
+2014-05-14 11:04:06 [3904] debug: Server TCP Socket 648 remote: 192.168.3.79:49563 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 11:04:06 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:49563
+2014-05-14 11:04:11 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:49563
+2014-05-14 11:04:13 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.79:49729
+2014-05-14 11:11:32 [3944] warn: Server TCP Socket 564 remote: 192.168.3.79:49729 peer closed, close it
+2014-05-14 11:11:32 [3944] debug: Server TCP Socket 564 remote: 192.168.3.79:49729 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 11:11:32 [3300] Client closed----------, Server TCP Socket 564 remote: 192.168.3.79:49729
+2014-05-14 11:11:37 [3544] warn: destroy Server TCP Socket 564 remote: 192.168.3.79:49729
+2014-05-14 11:12:50 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:49753
+2014-05-14 11:13:14 [3964] warn: Server TCP Socket 648 remote: 192.168.3.79:49753 peer closed, close it
+2014-05-14 11:13:14 [3964] debug: Server TCP Socket 648 remote: 192.168.3.79:49753 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 11:13:14 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:49753
+2014-05-14 11:13:16 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.79:49758
+2014-05-14 11:13:19 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:49753
+2014-05-14 11:15:39 [3964] warn: Server TCP Socket 576 remote: 192.168.3.88:2383 peer closed, close it
+2014-05-14 11:15:39 [3964] debug: Server TCP Socket 576 remote: 192.168.3.88:2383 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 11:15:39 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.88:2383
+2014-05-14 11:15:44 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.88:2383
+2014-05-14 11:15:48 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.88:2456
+2014-05-14 11:16:19 [3300] debug: login '333' password mismatch
+2014-05-14 11:16:22 [3964] debug: Server TCP Socket 648 remote: 192.168.3.88:2456 socket error, close it, 指定的网络名不再可用。
+2014-05-14 11:16:22 [3300] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:2456
+2014-05-14 11:16:27 [3544] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:2456
+2014-05-14 11:16:30 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.88:2462
+2014-05-14 11:16:35 [3300] debug: login '333' password mismatch
+2014-05-14 11:16:38 [3904] debug: Server TCP Socket 576 remote: 192.168.3.88:2462 socket error, close it, 指定的网络名不再可用。
+2014-05-14 11:16:38 [3300] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:2462
+2014-05-14 11:16:42 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.88:2463
+2014-05-14 11:16:43 [3544] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:2462
+2014-05-14 11:16:49 [3300] debug: login '333' password mismatch
+2014-05-14 11:16:52 [3904] debug: Server TCP Socket 648 remote: 192.168.3.88:2463 socket error, close it, 指定的网络名不再可用。
+2014-05-14 11:16:52 [3300] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:2463
+2014-05-14 11:16:57 [3544] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:2463
+2014-05-14 11:17:35 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.88:2466
+2014-05-14 11:17:42 [3300] debug: login '333' password mismatch
+2014-05-14 11:17:45 [3964] debug: Server TCP Socket 576 remote: 192.168.3.88:2466 socket error, close it, 指定的网络名不再可用。
+2014-05-14 11:17:45 [3300] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:2466
+2014-05-14 11:17:50 [3544] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:2466
+2014-05-14 11:18:17 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.88:2467
+2014-05-14 11:19:17 [3944] warn: Server TCP Socket 648 remote: 192.168.3.88:2467 peer closed, close it
+2014-05-14 11:19:17 [3944] debug: Server TCP Socket 648 remote: 192.168.3.88:2467 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 11:19:17 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.88:2467
+2014-05-14 11:19:20 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.88:2468
+2014-05-14 11:19:22 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.88:2467
+2014-05-14 11:19:30 [3300] debug: login '333' password mismatch
+2014-05-14 11:19:33 [3964] debug: Server TCP Socket 576 remote: 192.168.3.88:2468 socket error, close it, 指定的网络名不再可用。
+2014-05-14 11:19:34 [3300] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:2468
+2014-05-14 11:19:38 [3544] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:2468
+2014-05-14 11:20:25 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.88:2472
+2014-05-14 11:21:30 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 13:41:45 [3944] warn: Server TCP Socket 564 remote: 192.168.3.79:49758 peer closed, close it
+2014-05-14 13:41:45 [3944] debug: Server TCP Socket 564 remote: 192.168.3.79:49758 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 13:41:45 [3300] Client closed----------, Server TCP Socket 564 remote: 192.168.3.79:49758
+2014-05-14 13:41:48 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:50232
+2014-05-14 13:41:50 [3544] warn: destroy Server TCP Socket 564 remote: 192.168.3.79:49758
+2014-05-14 13:41:59 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 13:42:56 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 13:50:46 [3980] warn: Server TCP Socket 576 remote: 192.168.3.79:50232 peer closed, close it
+2014-05-14 13:50:46 [3980] debug: Server TCP Socket 576 remote: 192.168.3.79:50232 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 13:50:46 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:50232
+2014-05-14 13:50:50 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.79:50262
+2014-05-14 13:50:51 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:50232
+2014-05-14 14:00:10 [3944] warn: Server TCP Socket 564 remote: 192.168.3.79:50262 peer closed, close it
+2014-05-14 14:00:10 [3944] debug: Server TCP Socket 564 remote: 192.168.3.79:50262 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:00:10 [3300] Client closed----------, Server TCP Socket 564 remote: 192.168.3.79:50262
+2014-05-14 14:00:13 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:50288
+2014-05-14 14:00:15 [3544] warn: destroy Server TCP Socket 564 remote: 192.168.3.79:50262
+2014-05-14 14:00:54 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 14:18:56 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 14:19:47 [3300] debug: DB_SaveGroupPrivate::onFinished acct:56 result:0
+2014-05-14 14:20:03 [3300] debug: DB_CreateGroup::onFinished acct:57 result:0
+2014-05-14 14:20:04 [3300] debug: DB_JoinGroup::onFinished acct:57 grp:62 result:0
+2014-05-14 14:20:14 [3300] debug: DB_SaveGroupPrivate::onFinished acct:56 result:0
+2014-05-14 14:22:47 [3980] warn: Server TCP Socket 576 remote: 192.168.3.79:50288 peer closed, close it
+2014-05-14 14:22:47 [3980] debug: Server TCP Socket 576 remote: 192.168.3.79:50288 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:22:47 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:50288
+2014-05-14 14:22:51 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.79:50347
+2014-05-14 14:22:51 [3300] debug: DB_LoadFriends::onFinished acct:23 result:0
+2014-05-14 14:22:51 [3300] debug: DB_LoadGroups::onFinished acct:23 result:0
+2014-05-14 14:22:51 [3300] debug: DB_LoadGroupDetail::onFinished grp:14 result:0
+2014-05-14 14:22:51 [3300] debug: DB_LoadGroupDetail::onFinished grp:61 result:0
+2014-05-14 14:22:51 [1012] error: open './Data/avatar/23/20140512-0014', 系统找不到指定的路径。
+2014-05-14 14:22:52 [4080] error: open './Data/avatar/90/20140410-0065.jpeg', 系统找不到指定的路径。
+2014-05-14 14:22:52 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:50288
+2014-05-14 14:30:02 [3944] warn: Server TCP Socket 564 remote: 192.168.3.79:50347 peer closed, close it
+2014-05-14 14:30:02 [3944] debug: Server TCP Socket 564 remote: 192.168.3.79:50347 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:30:02 [3300] Client closed----------, Server TCP Socket 564 remote: 192.168.3.79:50347
+2014-05-14 14:30:06 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:50370
+2014-05-14 14:30:07 [3544] warn: destroy Server TCP Socket 564 remote: 192.168.3.79:50347
+2014-05-14 14:31:58 [3400] warn: Server TCP Socket 576 remote: 192.168.3.79:50370 peer closed, close it
+2014-05-14 14:31:58 [3400] debug: Server TCP Socket 576 remote: 192.168.3.79:50370 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:31:59 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:50370
+2014-05-14 14:32:04 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:50370
+2014-05-14 14:32:04 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.79:50380
+2014-05-14 14:32:22 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 14:33:28 [3300] debug: DB_JoinGroup::onFinished acct:57 grp:56 result:0
+2014-05-14 14:33:52 [3300] debug: DB_SaveGroupPrivate::onFinished acct:56 result:0
+2014-05-14 14:34:21 [3904] warn: Server TCP Socket 564 remote: 192.168.3.79:50380 peer closed, close it
+2014-05-14 14:34:21 [3904] debug: Server TCP Socket 564 remote: 192.168.3.79:50380 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:34:21 [3300] Client closed----------, Server TCP Socket 564 remote: 192.168.3.79:50380
+2014-05-14 14:34:24 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:50388
+2014-05-14 14:34:26 [3544] warn: destroy Server TCP Socket 564 remote: 192.168.3.79:50380
+2014-05-14 14:34:57 [3300] debug: DB_SaveGroupPrivate::onFinished acct:56 result:0
+2014-05-14 14:35:00 [3300] debug: DB_SaveGroupPrivate::onFinished acct:38 result:0
+2014-05-14 14:35:05 [3400] warn: Server TCP Socket 576 remote: 192.168.3.79:50388 peer closed, close it
+2014-05-14 14:35:05 [3400] debug: Server TCP Socket 576 remote: 192.168.3.79:50388 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:35:05 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:50388
+2014-05-14 14:35:08 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.79:50392
+2014-05-14 14:35:10 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:50388
+2014-05-14 14:37:59 [3980] warn: Server TCP Socket 564 remote: 192.168.3.79:50392 peer closed, close it
+2014-05-14 14:37:59 [3980] debug: Server TCP Socket 564 remote: 192.168.3.79:50392 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:37:59 [3300] Client closed----------, Server TCP Socket 564 remote: 192.168.3.79:50392
+2014-05-14 14:38:04 [3544] warn: destroy Server TCP Socket 564 remote: 192.168.3.79:50392
+2014-05-14 14:38:11 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:50404
+2014-05-14 14:38:11 [3300] debug: DB_Authenticate::onFinished acct:0 result:18
+2014-05-14 14:38:11 [3944] warn: Server TCP Socket 576 remote: 192.168.3.79:50404 peer closed, close it
+2014-05-14 14:38:11 [3944] debug: Server TCP Socket 576 remote: 192.168.3.79:50404 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:38:11 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:50404
+2014-05-14 14:38:16 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:50404
+2014-05-14 14:38:18 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.79:50405
+2014-05-14 14:38:18 [3300] debug: DB_Authenticate::onFinished acct:0 result:18
+2014-05-14 14:38:18 [3904] warn: Server TCP Socket 564 remote: 192.168.3.79:50405 peer closed, close it
+2014-05-14 14:38:18 [3904] debug: Server TCP Socket 564 remote: 192.168.3.79:50405 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:38:18 [3300] Client closed----------, Server TCP Socket 564 remote: 192.168.3.79:50405
+2014-05-14 14:38:23 [3544] warn: destroy Server TCP Socket 564 remote: 192.168.3.79:50405
+2014-05-14 14:38:50 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:50407
+2014-05-14 14:38:50 [3300] debug: DB_Authenticate::onFinished acct:0 result:0
+2014-05-14 14:38:50 [3300] debug: DB_LoadFriends::onFinished acct:13 result:0
+2014-05-14 14:38:50 [3300] debug: DB_LoadGroups::onFinished acct:13 result:0
+2014-05-14 14:38:50 [3300] debug: DB_LoadGroupDetail::onFinished grp:27 result:0
+2014-05-14 14:38:50 [3300] debug: DB_LoadGroupDetail::onFinished grp:30 result:0
+2014-05-14 14:38:50 [3300] debug: DB_LoadGroupDetail::onFinished grp:31 result:0
+2014-05-14 14:38:50 [3300] debug: DB_LoadGroupDetail::onFinished grp:32 result:0
+2014-05-14 14:38:50 [4080] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-14 14:38:51 [1012] error: open './Data/avatar/12/20140509-0000', 系统找不到指定的路径。
+2014-05-14 14:38:51 [4080] error: open './Data/avatar/26/20140509-0000', 系统找不到指定的路径。
+2014-05-14 14:38:51 [4080] error: open './Data/avatar/107/20140328-0014.jpeg', 系统找不到指定的路径。
+2014-05-14 14:40:30 [3400] warn: Server TCP Socket 648 remote: 192.168.3.88:2472 peer closed, close it
+2014-05-14 14:40:30 [3400] debug: Server TCP Socket 648 remote: 192.168.3.88:2472 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:40:30 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.88:2472
+2014-05-14 14:40:35 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.88:2472
+2014-05-14 14:40:49 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.88:3145
+2014-05-14 14:41:10 [3300] debug: login 'mz2' password mismatch
+2014-05-14 14:41:13 [3980] debug: Server TCP Socket 564 remote: 192.168.3.88:3145 socket error, close it, 指定的网络名不再可用。
+2014-05-14 14:41:13 [3300] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:3145
+2014-05-14 14:41:18 [3544] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:3145
+2014-05-14 14:41:39 [3944] warn: Server TCP Socket 576 remote: 192.168.3.79:50407 peer closed, close it
+2014-05-14 14:41:39 [3944] debug: Server TCP Socket 576 remote: 192.168.3.79:50407 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:41:39 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:50407
+2014-05-14 14:41:44 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:50407
+2014-05-14 14:41:48 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50414
+2014-05-14 14:41:48 [3300] debug: login 'mz2' password mismatch
+2014-05-14 14:41:48 [3944] warn: Server TCP Socket 648 remote: 192.168.3.79:50414 peer closed, close it
+2014-05-14 14:41:48 [3944] debug: Server TCP Socket 648 remote: 192.168.3.79:50414 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:41:48 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:50414
+2014-05-14 14:41:53 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:50414
+2014-05-14 14:42:26 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.88:3151
+2014-05-14 14:42:32 [3300] debug: login 'mz2' password mismatch
+2014-05-14 14:42:35 [3904] debug: Server TCP Socket 576 remote: 192.168.3.88:3151 socket error, close it, 指定的网络名不再可用。
+2014-05-14 14:42:35 [3300] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:3151
+2014-05-14 14:42:40 [3544] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:3151
+2014-05-14 14:43:56 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.88:3154
+2014-05-14 14:44:43 [3300] error: login, Server TCP Socket 648 remote: 192.168.3.88:3154 already has an account acct:26 aa
+2014-05-14 14:44:43 [3300] debug: DB_LoadFriends::onFinished acct:26 result:0
+2014-05-14 14:44:43 [3300] debug: DB_LoadGroups::onFinished acct:26 result:0
+2014-05-14 14:44:43 [3904] debug: Server TCP Socket 648 remote: 192.168.3.88:3154 socket error, close it, 指定的网络名不再可用。
+2014-05-14 14:44:43 [3300] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:3154
+2014-05-14 14:44:48 [3544] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:3154
+2014-05-14 14:46:08 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:50431
+2014-05-14 14:46:08 [3300] debug: DB_LoadFriends::onFinished acct:55 result:0
+2014-05-14 14:46:08 [3300] debug: DB_LoadGroups::onFinished acct:55 result:0
+2014-05-14 14:46:09 [1012] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-14 14:46:40 [3400] warn: Server TCP Socket 576 remote: 192.168.3.79:50431 peer closed, close it
+2014-05-14 14:46:40 [3400] debug: Server TCP Socket 576 remote: 192.168.3.79:50431 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:46:40 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:50431
+2014-05-14 14:46:45 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:50431
+2014-05-14 14:47:05 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50434
+2014-05-14 14:47:06 [4080] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-14 14:47:06 [1012] error: open './Data/avatar/12/20140509-0000', 系统找不到指定的路径。
+2014-05-14 14:47:06 [4080] error: open './Data/avatar/26/20140509-0000', 系统找不到指定的路径。
+2014-05-14 14:47:06 [4080] error: open './Data/avatar/107/20140328-0014.jpeg', 系统找不到指定的路径。
+2014-05-14 14:47:29 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.88:3162
+2014-05-14 14:49:29 [3944] warn: Server TCP Socket 576 remote: 192.168.3.88:3162 peer closed, close it
+2014-05-14 14:49:29 [3944] debug: Server TCP Socket 576 remote: 192.168.3.88:3162 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:49:29 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.88:3162
+2014-05-14 14:49:34 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.88:3162
+2014-05-14 14:49:37 [3300] Client connected-------, Server TCP Socket 564 remote: 192.168.3.88:3165
+2014-05-14 14:49:52 [3300] debug: DB_LoadFriends::onFinished acct:56 result:0
+2014-05-14 14:49:52 [3300] debug: DB_LoadGroups::onFinished acct:56 result:0
+2014-05-14 14:49:52 [3300] debug: DB_LoadGroupDetail::onFinished grp:28 result:0
+2014-05-14 14:49:52 [3300] debug: DB_LoadGroupDetail::onFinished grp:29 result:0
+2014-05-14 14:52:01 [3904] warn: Server TCP Socket 648 remote: 192.168.3.79:50434 peer closed, close it
+2014-05-14 14:52:01 [3904] debug: Server TCP Socket 648 remote: 192.168.3.79:50434 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:52:02 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:50434
+2014-05-14 14:52:04 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:50449
+2014-05-14 14:52:06 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:50434
+2014-05-14 14:52:12 [4080] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-14 14:52:12 [4080] error: open './Data/avatar/12/20140509-0000', 系统找不到指定的路径。
+2014-05-14 14:52:12 [4080] error: open './Data/avatar/26/20140509-0000', 系统找不到指定的路径。
+2014-05-14 14:52:12 [1012] error: open './Data/avatar/107/20140328-0014.jpeg', 系统找不到指定的路径。
+2014-05-14 14:52:43 [3904] warn: Server TCP Socket 576 remote: 192.168.3.79:50449 peer closed, close it
+2014-05-14 14:52:43 [3904] debug: Server TCP Socket 576 remote: 192.168.3.79:50449 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:52:43 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:50449
+2014-05-14 14:52:47 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50453
+2014-05-14 14:52:48 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:50449
+2014-05-14 14:56:44 [3964] warn: Server TCP Socket 648 remote: 192.168.3.79:50453 peer closed, close it
+2014-05-14 14:56:44 [3964] debug: Server TCP Socket 648 remote: 192.168.3.79:50453 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:56:44 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:50453
+2014-05-14 14:56:49 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:50453
+2014-05-14 14:56:50 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:50470
+2014-05-14 14:58:30 [3400] warn: Server TCP Socket 576 remote: 192.168.3.79:50470 peer closed, close it
+2014-05-14 14:58:30 [3400] debug: Server TCP Socket 576 remote: 192.168.3.79:50470 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 14:58:30 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:50470
+2014-05-14 14:58:33 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50478
+2014-05-14 14:58:36 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:50470
+2014-05-14 15:10:00 [3400] warn: Server TCP Socket 648 remote: 192.168.3.79:50478 peer closed, close it
+2014-05-14 15:10:00 [3400] debug: Server TCP Socket 648 remote: 192.168.3.79:50478 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:10:00 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:50478
+2014-05-14 15:10:04 [3300] Client connected-------, Server TCP Socket 576 remote: 192.168.3.79:50512
+2014-05-14 15:10:05 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:50478
+2014-05-14 15:12:16 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50520
+2014-05-14 15:12:18 [3964] warn: Server TCP Socket 576 remote: 192.168.3.79:50512 peer closed, close it
+2014-05-14 15:12:18 [3964] debug: Server TCP Socket 576 remote: 192.168.3.79:50512 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:12:18 [3300] Client closed----------, Server TCP Socket 576 remote: 192.168.3.79:50512
+2014-05-14 15:12:23 [3544] warn: destroy Server TCP Socket 576 remote: 192.168.3.79:50512
+2014-05-14 15:26:21 [3980] warn: Server TCP Socket 648 remote: 192.168.3.79:50520 peer closed, close it
+2014-05-14 15:26:21 [3980] debug: Server TCP Socket 648 remote: 192.168.3.79:50520 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:26:21 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:50520
+2014-05-14 15:26:24 [3300] Client connected-------, Server TCP Socket 664 remote: 192.168.3.79:50561
+2014-05-14 15:26:26 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:50520
+2014-05-14 15:27:25 [3980] warn: Server TCP Socket 664 remote: 192.168.3.79:50561 peer closed, close it
+2014-05-14 15:27:25 [3980] debug: Server TCP Socket 664 remote: 192.168.3.79:50561 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:27:25 [3300] Client closed----------, Server TCP Socket 664 remote: 192.168.3.79:50561
+2014-05-14 15:27:30 [3544] warn: destroy Server TCP Socket 664 remote: 192.168.3.79:50561
+2014-05-14 15:27:41 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50566
+2014-05-14 15:28:29 [3964] warn: Server TCP Socket 648 remote: 192.168.3.79:50566 peer closed, close it
+2014-05-14 15:28:29 [3964] debug: Server TCP Socket 648 remote: 192.168.3.79:50566 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:28:29 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:50566
+2014-05-14 15:28:32 [3300] Client connected-------, Server TCP Socket 664 remote: 192.168.3.79:50572
+2014-05-14 15:28:34 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:50566
+2014-05-14 15:28:59 [3904] warn: Server TCP Socket 664 remote: 192.168.3.79:50572 peer closed, close it
+2014-05-14 15:28:59 [3904] debug: Server TCP Socket 664 remote: 192.168.3.79:50572 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:28:59 [3300] Client closed----------, Server TCP Socket 664 remote: 192.168.3.79:50572
+2014-05-14 15:29:02 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50576
+2014-05-14 15:29:04 [3544] warn: destroy Server TCP Socket 664 remote: 192.168.3.79:50572
+2014-05-14 15:29:36 [3400] warn: Server TCP Socket 648 remote: 192.168.3.79:50576 peer closed, close it
+2014-05-14 15:29:36 [3400] debug: Server TCP Socket 648 remote: 192.168.3.79:50576 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:29:36 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:50576
+2014-05-14 15:29:39 [3300] Client connected-------, Server TCP Socket 664 remote: 192.168.3.79:50580
+2014-05-14 15:29:41 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:50576
+2014-05-14 15:38:40 [3904] warn: Server TCP Socket 664 remote: 192.168.3.79:50580 peer closed, close it
+2014-05-14 15:38:40 [3904] debug: Server TCP Socket 664 remote: 192.168.3.79:50580 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:38:40 [3300] Client closed----------, Server TCP Socket 664 remote: 192.168.3.79:50580
+2014-05-14 15:38:43 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50608
+2014-05-14 15:38:45 [3544] warn: destroy Server TCP Socket 664 remote: 192.168.3.79:50580
+2014-05-14 15:39:31 [3904] warn: Server TCP Socket 648 remote: 192.168.3.79:50608 peer closed, close it
+2014-05-14 15:39:31 [3904] debug: Server TCP Socket 648 remote: 192.168.3.79:50608 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:39:31 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:50608
+2014-05-14 15:39:34 [3300] Client connected-------, Server TCP Socket 664 remote: 192.168.3.79:50613
+2014-05-14 15:39:36 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:50608
+2014-05-14 15:40:40 [3400] warn: Server TCP Socket 664 remote: 192.168.3.79:50613 peer closed, close it
+2014-05-14 15:40:40 [3400] debug: Server TCP Socket 664 remote: 192.168.3.79:50613 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:40:40 [3300] Client closed----------, Server TCP Socket 664 remote: 192.168.3.79:50613
+2014-05-14 15:40:44 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50619
+2014-05-14 15:40:45 [3544] warn: destroy Server TCP Socket 664 remote: 192.168.3.79:50613
+2014-05-14 15:41:42 [3400] warn: Server TCP Socket 648 remote: 192.168.3.79:50619 peer closed, close it
+2014-05-14 15:41:42 [3400] debug: Server TCP Socket 648 remote: 192.168.3.79:50619 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:41:42 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:50619
+2014-05-14 15:41:46 [3300] Client connected-------, Server TCP Socket 664 remote: 192.168.3.79:50624
+2014-05-14 15:41:47 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:50619
+2014-05-14 15:42:18 [3964] warn: Server TCP Socket 664 remote: 192.168.3.79:50624 peer closed, close it
+2014-05-14 15:42:18 [3964] debug: Server TCP Socket 664 remote: 192.168.3.79:50624 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:42:18 [3300] Client closed----------, Server TCP Socket 664 remote: 192.168.3.79:50624
+2014-05-14 15:42:21 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50629
+2014-05-14 15:42:23 [3544] warn: destroy Server TCP Socket 664 remote: 192.168.3.79:50624
+2014-05-14 15:42:46 [3964] warn: Server TCP Socket 648 remote: 192.168.3.79:50629 peer closed, close it
+2014-05-14 15:42:46 [3964] debug: Server TCP Socket 648 remote: 192.168.3.79:50629 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:42:46 [3300] Client closed----------, Server TCP Socket 648 remote: 192.168.3.79:50629
+2014-05-14 15:42:49 [3300] Client connected-------, Server TCP Socket 664 remote: 192.168.3.79:50632
+2014-05-14 15:42:51 [3544] warn: destroy Server TCP Socket 648 remote: 192.168.3.79:50629
+2014-05-14 15:58:58 [3904] warn: Server TCP Socket 664 remote: 192.168.3.79:50632 peer closed, close it
+2014-05-14 15:58:58 [3904] debug: Server TCP Socket 664 remote: 192.168.3.79:50632 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 15:58:58 [3300] Client closed----------, Server TCP Socket 664 remote: 192.168.3.79:50632
+2014-05-14 15:59:01 [3300] Client connected-------, Server TCP Socket 648 remote: 192.168.3.79:50681
+2014-05-14 15:59:03 [3544] warn: destroy Server TCP Socket 664 remote: 192.168.3.79:50632
+2014-05-14 16:02:54 [4016] |------------------------------------------------|
+2014-05-14 16:02:54 [4016] |                  DemoChatServer                |
+2014-05-14 16:02:54 [4016] |------------------------------------------------|
+2014-05-14 16:02:54 [4016] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140506 result:0
+2014-05-14 16:03:10 [4016] Client connected-------, Server TCP Socket 560 remote: 192.168.3.79:50699
+2014-05-14 16:03:15 [4016] debug: DB_Authenticate::onFinished acct:0 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadFriends::onFinished acct:57 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroups::onFinished acct:57 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:38 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:45 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:43 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:39 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:41 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:40 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:51 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:53 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:42 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:48 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:44 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:56 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:52 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:46 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:49 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:47 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:54 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:55 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:50 result:0
+2014-05-14 16:03:15 [4016] debug: DB_LoadGroupDetail::onFinished grp:62 result:0
+2014-05-14 16:06:06 [2904] warn: Server TCP Socket 560 remote: 192.168.3.79:50699 peer closed, close it
+2014-05-14 16:06:06 [2616] warn: Server TCP Socket 560 remote: 192.168.3.79:50699 peer closed, close it
+2014-05-14 16:06:06 [3076] warn: Server TCP Socket 560 remote: 192.168.3.79:50699 peer closed, close it
+2014-05-14 16:06:06 [2616] debug: Server TCP Socket 560 remote: 192.168.3.79:50699 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 16:06:06 [3076] debug: Server TCP Socket 560 remote: 192.168.3.79:50699 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 16:06:06 [2904] debug: Server TCP Socket 560 remote: 192.168.3.79:50699 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 16:06:07 [4016] Client closed----------, Server TCP Socket 560 remote: 192.168.3.79:50699
+2014-05-14 16:06:11 [2872] warn: destroy Server TCP Socket 560 remote: 192.168.3.79:50699
+2014-05-14 16:39:05 [4016] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:51531
+2014-05-14 16:39:09 [2308] warn: Server TCP Socket 572 remote: 192.168.3.79:51531 peer closed, close it
+2014-05-14 16:39:09 [2308] debug: Server TCP Socket 572 remote: 192.168.3.79:51531 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 16:39:10 [4016] Client closed----------, Server TCP Socket 572 remote: 192.168.3.79:51531
+2014-05-14 16:39:14 [2872] warn: destroy Server TCP Socket 572 remote: 192.168.3.79:51531
+2014-05-14 16:39:21 [4016] Client connected-------, Server TCP Socket 644 remote: 192.168.3.79:51535
+2014-05-14 16:40:03 [4016] Client connected-------, Server TCP Socket 572 remote: 192.168.3.88:4252
+2014-05-14 17:07:54 [2904] warn: Server TCP Socket 644 remote: 192.168.3.79:51535 peer closed, close it
+2014-05-14 17:07:54 [2904] debug: Server TCP Socket 644 remote: 192.168.3.79:51535 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 17:07:54 [4016] Client closed----------, Server TCP Socket 644 remote: 192.168.3.79:51535
+2014-05-14 17:07:57 [4016] Client connected-------, Server TCP Socket 660 remote: 192.168.3.79:51616
+2014-05-14 17:07:59 [2872] warn: destroy Server TCP Socket 644 remote: 192.168.3.79:51535
+2014-05-14 17:08:28 [2308] warn: Server TCP Socket 572 remote: 192.168.3.88:4252 peer closed, close it
+2014-05-14 17:08:28 [2308] debug: Server TCP Socket 572 remote: 192.168.3.88:4252 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 17:08:28 [4016] Client closed----------, Server TCP Socket 572 remote: 192.168.3.88:4252
+2014-05-14 17:08:33 [2872] warn: destroy Server TCP Socket 572 remote: 192.168.3.88:4252
+2014-05-14 17:08:37 [4016] Client connected-------, Server TCP Socket 644 remote: 192.168.3.88:4288
+2014-05-14 17:08:56 [4016] debug: DB_LoadFriends::onFinished acct:91 result:0
+2014-05-14 17:08:56 [4016] debug: DB_LoadGroups::onFinished acct:91 result:0
+2014-05-14 17:11:26 [2308] warn: Server TCP Socket 660 remote: 192.168.3.79:51616 peer closed, close it
+2014-05-14 17:11:26 [2308] debug: Server TCP Socket 660 remote: 192.168.3.79:51616 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 17:11:26 [4016] Client closed----------, Server TCP Socket 660 remote: 192.168.3.79:51616
+2014-05-14 17:11:29 [4016] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:51626
+2014-05-14 17:11:31 [2872] warn: destroy Server TCP Socket 660 remote: 192.168.3.79:51616
+2014-05-14 17:11:46 [3088] error: DB_SaveGroupPrivate, Duplicate entry '38-20140514000000003' for key 'PRIMARY'
+2014-05-14 17:11:46 [4016] debug: DB_SaveGroupPrivate::onFinished acct:38 result:17
+2014-05-14 17:14:00 [2900] warn: Server TCP Socket 572 remote: 192.168.3.79:51626 peer closed, close it
+2014-05-14 17:14:00 [2900] debug: Server TCP Socket 572 remote: 192.168.3.79:51626 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 17:14:00 [4016] Client closed----------, Server TCP Socket 572 remote: 192.168.3.79:51626
+2014-05-14 17:14:03 [4016] Client connected-------, Server TCP Socket 660 remote: 192.168.3.79:51635
+2014-05-14 17:14:05 [2872] warn: destroy Server TCP Socket 572 remote: 192.168.3.79:51626
+2014-05-14 17:15:02 [2904] warn: Server TCP Socket 660 remote: 192.168.3.79:51635 peer closed, close it
+2014-05-14 17:15:02 [2904] debug: Server TCP Socket 660 remote: 192.168.3.79:51635 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 17:15:02 [4016] Client closed----------, Server TCP Socket 660 remote: 192.168.3.79:51635
+2014-05-14 17:15:05 [4016] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:51647
+2014-05-14 17:15:07 [2872] warn: destroy Server TCP Socket 660 remote: 192.168.3.79:51635
+2014-05-14 17:26:18 [2308] warn: Server TCP Socket 572 remote: 192.168.3.79:51647 peer closed, close it
+2014-05-14 17:26:18 [2308] debug: Server TCP Socket 572 remote: 192.168.3.79:51647 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 17:26:18 [4016] Client closed----------, Server TCP Socket 572 remote: 192.168.3.79:51647
+2014-05-14 17:26:22 [4016] Client connected-------, Server TCP Socket 660 remote: 192.168.3.79:51677
+2014-05-14 17:26:23 [2872] warn: destroy Server TCP Socket 572 remote: 192.168.3.79:51647
+2014-05-14 17:27:02 [3076] warn: Server TCP Socket 660 remote: 192.168.3.79:51677 peer closed, close it
+2014-05-14 17:27:02 [3076] debug: Server TCP Socket 660 remote: 192.168.3.79:51677 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 17:27:02 [4016] Client closed----------, Server TCP Socket 660 remote: 192.168.3.79:51677
+2014-05-14 17:27:04 [4016] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:51682
+2014-05-14 17:27:07 [2872] warn: destroy Server TCP Socket 660 remote: 192.168.3.79:51677
+2014-05-14 17:28:18 [3076] warn: Server TCP Socket 572 remote: 192.168.3.79:51682 peer closed, close it
+2014-05-14 17:28:18 [3076] debug: Server TCP Socket 572 remote: 192.168.3.79:51682 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 17:28:18 [4016] Client closed----------, Server TCP Socket 572 remote: 192.168.3.79:51682
+2014-05-14 17:28:21 [4016] Client connected-------, Server TCP Socket 660 remote: 192.168.3.79:51688
+2014-05-14 17:28:23 [2872] warn: destroy Server TCP Socket 572 remote: 192.168.3.79:51682
+2014-05-14 17:29:55 [2616] warn: Server TCP Socket 660 remote: 192.168.3.79:51688 peer closed, close it
+2014-05-14 17:29:55 [2616] debug: Server TCP Socket 660 remote: 192.168.3.79:51688 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 17:29:55 [4016] Client closed----------, Server TCP Socket 660 remote: 192.168.3.79:51688
+2014-05-14 17:30:00 [2872] warn: destroy Server TCP Socket 660 remote: 192.168.3.79:51688
+2014-05-14 17:30:07 [4016] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:51694
+2014-05-14 17:30:30 [2308] warn: Server TCP Socket 572 remote: 192.168.3.79:51694 peer closed, close it
+2014-05-14 17:30:30 [2308] debug: Server TCP Socket 572 remote: 192.168.3.79:51694 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 17:30:30 [4016] Client closed----------, Server TCP Socket 572 remote: 192.168.3.79:51694
+2014-05-14 17:30:35 [2872] warn: destroy Server TCP Socket 572 remote: 192.168.3.79:51694
+2014-05-14 17:30:53 [4016] Client connected-------, Server TCP Socket 660 remote: 192.168.3.79:51699
+2014-05-14 18:05:32 [2616] warn: Server TCP Socket 660 remote: 192.168.3.79:51699 peer closed, close it
+2014-05-14 18:05:32 [2616] debug: Server TCP Socket 660 remote: 192.168.3.79:51699 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 18:05:33 [4016] Client closed----------, Server TCP Socket 660 remote: 192.168.3.79:51699
+2014-05-14 18:05:38 [2872] warn: destroy Server TCP Socket 660 remote: 192.168.3.79:51699
+2014-05-14 18:06:18 [4016] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:51808
+2014-05-14 18:08:05 [4092] error: DB_SaveGroupPrivate, Duplicate entry '38-20140514000000005' for key 'PRIMARY'
+2014-05-14 18:08:05 [4016] debug: DB_SaveGroupPrivate::onFinished acct:38 result:17
+2014-05-14 18:10:34 [2904] debug: Server TCP Socket 644 remote: 192.168.3.88:4288 socket error, close it, 指定的网络名不再可用。
+2014-05-14 18:10:34 [4016] Client closed----------, Server TCP Socket 644 remote: 192.168.3.88:4288
+2014-05-14 18:10:39 [2872] warn: destroy Server TCP Socket 644 remote: 192.168.3.88:4288
+2014-05-14 18:10:41 [2308] warn: Server TCP Socket 572 remote: 192.168.3.79:51808 peer closed, close it
+2014-05-14 18:10:41 [2308] debug: Server TCP Socket 572 remote: 192.168.3.79:51808 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-14 18:10:41 [4016] Client closed----------, Server TCP Socket 572 remote: 192.168.3.79:51808
+2014-05-14 18:10:46 [2872] warn: destroy Server TCP Socket 572 remote: 192.168.3.79:51808

@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'TCPClient' target in the 'TCPClient' project
+//
+
+#import <Availability.h>
+//用户信息
+#define USERID @"userId"
+#define PASS @"pass"
+#define SERVER @"server"
+#define IP @"192.168.10.46"
+#define PORT 20000
+
+#define FQLIP   @"192.168.3.5"
+#define FQLPORT 22001
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#import "Define.h"

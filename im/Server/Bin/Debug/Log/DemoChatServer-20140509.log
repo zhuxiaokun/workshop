@@ -1,0 +1,110 @@
+2014-05-09 11:16:00 [2956] |------------------------------------------------|
+2014-05-09 11:16:00 [2956] |                  DemoChatServer                |
+2014-05-09 11:16:00 [2956] |------------------------------------------------|
+2014-05-09 11:16:00 [2956] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140501 result:0
+2014-05-09 11:20:22 [2956] Client connected-------, Server TCP Socket 560 remote: 192.168.3.4:58893
+2014-05-09 11:20:33 [2956] debug: DB_Authenticate::onFinished acct:0 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadFriends::onFinished acct:9 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroups::onFinished acct:9 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroupDetail::onFinished grp:6 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroupDetail::onFinished grp:13 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroupDetail::onFinished grp:23 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroupDetail::onFinished grp:8 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroupDetail::onFinished grp:58 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroupDetail::onFinished grp:3 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroupDetail::onFinished grp:25 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroupDetail::onFinished grp:30 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroupDetail::onFinished grp:11 result:0
+2014-05-09 11:20:33 [2956] debug: DB_LoadGroupDetail::onFinished grp:47 result:0
+2014-05-09 11:20:39 [2908] error: open './Data/avatar/8/20140506-0002', 系统找不到指定的路径。
+2014-05-09 11:21:11 [3948] warn: Server TCP Socket 560 remote: 192.168.3.4:58893 peer closed, close it
+2014-05-09 11:21:11 [3948] debug: Server TCP Socket 560 remote: 192.168.3.4:58893 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-09 11:21:11 [2956] Client closed----------, Server TCP Socket 560 remote: 192.168.3.4:58893
+2014-05-09 11:21:58 [3152] warn: destroy Server TCP Socket 560 remote: 192.168.3.4:58893
+2014-05-09 14:05:21 [2956] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:50058
+2014-05-09 14:05:31 [2956] debug: DB_Authenticate::onFinished acct:0 result:0
+2014-05-09 14:05:31 [2956] debug: DB_LoadGroups::onFinished acct:140 result:0
+2014-05-09 14:05:31 [2956] debug: DB_LoadFriends::onFinished acct:140 result:0
+2014-05-09 14:05:58 [3668] warn: Server TCP Socket 572 remote: 192.168.3.79:50058 peer closed, close it
+2014-05-09 14:05:58 [3668] debug: Server TCP Socket 572 remote: 192.168.3.79:50058 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-09 14:05:58 [2956] Client closed----------, Server TCP Socket 572 remote: 192.168.3.79:50058
+2014-05-09 14:06:03 [2956] Client connected-------, Server TCP Socket 636 remote: 192.168.3.79:50059
+2014-05-09 14:06:03 [3152] warn: destroy Server TCP Socket 572 remote: 192.168.3.79:50058
+2014-05-09 14:06:03 [2956] debug: DB_LoadFriends::onFinished acct:57 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroups::onFinished acct:57 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:39 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:41 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:48 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:49 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:51 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:40 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:44 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:52 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:53 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:38 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:46 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:42 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:54 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:43 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:45 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:50 result:0
+2014-05-09 14:06:03 [2956] debug: DB_LoadGroupDetail::onFinished grp:55 result:0
+2014-05-09 14:06:35 [3560] warn: Server TCP Socket 636 remote: 192.168.3.79:50059 peer closed, close it
+2014-05-09 14:06:35 [3560] debug: Server TCP Socket 636 remote: 192.168.3.79:50059 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-09 14:06:35 [2956] Client closed----------, Server TCP Socket 636 remote: 192.168.3.79:50059
+2014-05-09 14:06:37 [2956] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:50062
+2014-05-09 14:06:40 [3152] warn: destroy Server TCP Socket 636 remote: 192.168.3.79:50059
+2014-05-09 14:42:38 [1516] |------------------------------------------------|
+2014-05-09 14:42:38 [1516] |                  DemoChatServer                |
+2014-05-09 14:42:38 [1516] |------------------------------------------------|
+2014-05-09 14:42:38 [1516] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140501 result:0
+2014-05-09 14:43:16 [1516] Client connected-------, Server TCP Socket 560 remote: 192.168.3.79:50152
+2014-05-09 14:43:29 [328] warn: Server TCP Socket 560 remote: 192.168.3.79:50152 peer closed, close it
+2014-05-09 14:43:29 [328] debug: Server TCP Socket 560 remote: 192.168.3.79:50152 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-09 14:43:30 [1516] Client closed----------, Server TCP Socket 560 remote: 192.168.3.79:50152
+2014-05-09 14:43:35 [3796] warn: destroy Server TCP Socket 560 remote: 192.168.3.79:50152
+2014-05-09 14:43:41 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.79:50155
+2014-05-09 14:43:49 [1516] debug: DB_Authenticate::onFinished acct:0 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadFriends::onFinished acct:57 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroups::onFinished acct:57 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:40 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:38 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:41 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:42 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:39 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:47 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:48 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:43 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:45 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:44 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:46 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:49 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:53 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:54 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:55 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:50 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:51 result:0
+2014-05-09 14:43:49 [1516] debug: DB_LoadGroupDetail::onFinished grp:52 result:0
+2014-05-09 14:43:49 [4976] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-09 14:43:49 [4976] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-09 14:44:53 [3308] warn: Server TCP Socket 580 remote: 192.168.3.79:50155 peer closed, close it
+2014-05-09 14:44:53 [3308] debug: Server TCP Socket 580 remote: 192.168.3.79:50155 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-09 14:44:53 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.79:50155
+2014-05-09 14:44:58 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.79:50155
+2014-05-09 14:53:46 [1516] Client connected-------, Server TCP Socket 560 remote: 192.168.3.79:50163
+2014-05-09 14:53:51 [3308] warn: Server TCP Socket 560 remote: 192.168.3.79:50163 peer closed, close it
+2014-05-09 14:53:51 [3308] debug: Server TCP Socket 560 remote: 192.168.3.79:50163 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-09 14:53:51 [1516] Client closed----------, Server TCP Socket 560 remote: 192.168.3.79:50163
+2014-05-09 14:53:56 [3796] warn: destroy Server TCP Socket 560 remote: 192.168.3.79:50163
+2014-05-09 14:54:02 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.79:50166
+2014-05-09 14:54:09 [3960] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-09 14:55:33 [4768] warn: Server TCP Socket 580 remote: 192.168.3.79:50166 peer closed, close it
+2014-05-09 14:55:33 [4768] debug: Server TCP Socket 580 remote: 192.168.3.79:50166 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-09 14:55:33 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.79:50166
+2014-05-09 14:55:38 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.79:50166
+2014-05-09 15:50:29 [1516] Client connected-------, Server TCP Socket 560 remote: 192.168.3.79:50431
+2014-05-09 15:50:38 [4976] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-09 16:39:39 [3308] warn: Server TCP Socket 560 remote: 192.168.3.79:50431 peer closed, close it
+2014-05-09 16:39:39 [3308] debug: Server TCP Socket 560 remote: 192.168.3.79:50431 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-09 16:39:39 [1516] Client closed----------, Server TCP Socket 560 remote: 192.168.3.79:50431
+2014-05-09 16:39:44 [3796] warn: destroy Server TCP Socket 560 remote: 192.168.3.79:50431

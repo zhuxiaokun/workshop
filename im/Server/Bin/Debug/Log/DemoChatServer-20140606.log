@@ -1,0 +1,2 @@
+2014-06-06 03:00:00 [3884] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140529 result:0
+2014-06-06 03:00:00 [2424] warn: recursive rmDir './Data/private\20140529'

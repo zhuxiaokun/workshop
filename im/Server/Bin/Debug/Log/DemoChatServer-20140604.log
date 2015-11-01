@@ -1,0 +1,87 @@
+2014-06-04 13:26:52 [1316] |------------------------------------------------|
+2014-06-04 13:26:52 [1316] |                  DemoChatServer                |
+2014-06-04 13:26:52 [1316] |------------------------------------------------|
+2014-06-04 13:26:53 [1316] error: DatabaseAgent::Initialize, connect to database, Can't connect to MySQL server on '192.168.3.59' (0)
+2014-06-04 13:26:53 [1316] error: database agent initialize failed
+2014-06-04 13:26:59 [344] |------------------------------------------------|
+2014-06-04 13:26:59 [344] |                  DemoChatServer                |
+2014-06-04 13:26:59 [344] |------------------------------------------------|
+2014-06-04 13:27:00 [344] error: DatabaseAgent::Initialize, connect to database, Can't connect to MySQL server on '192.168.3.59' (0)
+2014-06-04 13:27:00 [344] error: database agent initialize failed
+2014-06-04 13:27:54 [3884] |------------------------------------------------|
+2014-06-04 13:27:54 [3884] |                  DemoChatServer                |
+2014-06-04 13:27:54 [3884] |------------------------------------------------|
+2014-06-04 13:27:54 [3884] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140527 result:0
+2014-06-04 13:27:54 [2424] warn: recursive rmDir './Data/private\20140523'
+2014-06-04 13:27:54 [2424] warn: recursive rmDir './Data/private\20140525'
+2014-06-04 13:27:54 [2424] warn: recursive rmDir './Data/private\20140526'
+2014-06-04 13:27:54 [2424] warn: recursive rmDir './Data/private\20140527'
+2014-06-04 13:32:05 [3884] Client connected-------, Server TCP Socket 560 remote: 192.168.8.107:49203
+2014-06-04 13:32:05 [3884] debug: DB_Authenticate::onFinished acct:0 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadFriends::onFinished acct:144 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadGroups::onFinished acct:144 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadGroupDetail::onFinished grp:64 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadGroupDetail::onFinished grp:65 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadGroupDetail::onFinished grp:66 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadGroupDetail::onFinished grp:67 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadUnreadMessages::onFinished acct:144 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:32:05 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:32:05 [2424] error: open './Data/private/20140528/group/67/7', 系统找不到指定的路径。
+2014-06-04 13:32:05 [3800] error: open './Data/private/20140528/group/66/6', 系统找不到指定的路径。
+2014-06-04 13:32:06 [3800] error: open './Data/private/20140528/group/65/1', 系统找不到指定的路径。
+2014-06-04 13:32:37 [3884] debug: DB_ModifyAccount::onFinished acct:144 result:0
+2014-06-04 13:40:11 [3324] warn: Server TCP Socket 560 remote: 192.168.8.107:49203 peer closed, close it
+2014-06-04 13:40:11 [3324] debug: Server TCP Socket 560 remote: 192.168.8.107:49203 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-06-04 13:40:11 [3884] Client closed----------, Server TCP Socket 560 remote: 192.168.8.107:49203
+2014-06-04 13:40:16 [3456] warn: destroy Server TCP Socket 560 remote: 192.168.8.107:49203
+2014-06-04 13:40:16 [3884] Client connected-------, Server TCP Socket 572 remote: 192.168.8.107:49211
+2014-06-04 13:40:16 [3884] debug: DB_LoadUnreadMessages::onFinished acct:144 result:0
+2014-06-04 13:40:16 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:40:16 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:40:16 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:40:16 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:40:16 [3800] error: open './Data/private/20140528/group/67/7', 系统找不到指定的路径。
+2014-06-04 13:40:16 [2424] error: open './Data/private/20140528/group/66/6', 系统找不到指定的路径。
+2014-06-04 13:40:16 [3800] error: open './Data/private/20140528/group/65/1', 系统找不到指定的路径。
+2014-06-04 13:40:28 [2796] warn: Server TCP Socket 572 remote: 192.168.8.107:49211 peer closed, close it
+2014-06-04 13:40:28 [2796] debug: Server TCP Socket 572 remote: 192.168.8.107:49211 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-06-04 13:40:28 [3884] Client closed----------, Server TCP Socket 572 remote: 192.168.8.107:49211
+2014-06-04 13:40:33 [3456] warn: destroy Server TCP Socket 572 remote: 192.168.8.107:49211
+2014-06-04 13:44:21 [3884] Client connected-------, Server TCP Socket 560 remote: 192.168.8.107:49216
+2014-06-04 13:44:22 [3884] debug: DB_LoadUnreadMessages::onFinished acct:144 result:0
+2014-06-04 13:44:22 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:44:22 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:44:22 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:44:22 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:44:22 [2424] error: open './Data/private/20140528/group/67/7', 系统找不到指定的路径。
+2014-06-04 13:44:22 [3800] error: open './Data/private/20140528/group/66/6', 系统找不到指定的路径。
+2014-06-04 13:44:22 [2424] error: open './Data/private/20140528/group/65/1', 系统找不到指定的路径。
+2014-06-04 13:45:54 [3324] warn: Server TCP Socket 560 remote: 192.168.8.107:49216 peer closed, close it
+2014-06-04 13:45:54 [3324] debug: Server TCP Socket 560 remote: 192.168.8.107:49216 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-06-04 13:45:54 [3884] Client closed----------, Server TCP Socket 560 remote: 192.168.8.107:49216
+2014-06-04 13:45:56 [3884] Client connected-------, Server TCP Socket 572 remote: 192.168.8.107:49220
+2014-06-04 13:45:57 [3884] debug: DB_LoadUnreadMessages::onFinished acct:144 result:0
+2014-06-04 13:45:57 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:45:57 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:45:57 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:45:57 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:45:57 [2424] error: open './Data/private/20140528/group/67/7', 系统找不到指定的路径。
+2014-06-04 13:45:57 [3800] error: open './Data/private/20140528/group/66/6', 系统找不到指定的路径。
+2014-06-04 13:45:57 [3800] error: open './Data/private/20140528/group/65/1', 系统找不到指定的路径。
+2014-06-04 13:45:59 [3456] warn: destroy Server TCP Socket 560 remote: 192.168.8.107:49216
+2014-06-04 13:47:19 [2796] warn: Server TCP Socket 572 remote: 192.168.8.107:49220 peer closed, close it
+2014-06-04 13:47:19 [2796] debug: Server TCP Socket 572 remote: 192.168.8.107:49220 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-06-04 13:47:19 [3884] Client closed----------, Server TCP Socket 572 remote: 192.168.8.107:49220
+2014-06-04 13:47:24 [3456] warn: destroy Server TCP Socket 572 remote: 192.168.8.107:49220
+2014-06-04 13:47:28 [3884] Client connected-------, Server TCP Socket 560 remote: 192.168.8.107:49221
+2014-06-04 13:47:28 [3884] debug: DB_LoadUnreadMessages::onFinished acct:144 result:0
+2014-06-04 13:47:28 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:47:28 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:47:28 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:47:28 [3884] debug: DB_LoadUnreadGroupMessages::onFinished acct:144 result:0
+2014-06-04 13:47:28 [3800] error: open './Data/private/20140528/group/67/7', 系统找不到指定的路径。
+2014-06-04 13:47:28 [3800] error: open './Data/private/20140528/group/66/6', 系统找不到指定的路径。
+2014-06-04 13:47:29 [2424] error: open './Data/private/20140528/group/65/1', 系统找不到指定的路径。

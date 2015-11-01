@@ -1,0 +1,52 @@
+2014-05-29 03:00:00 [3552] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140521 result:0
+2014-05-29 03:00:00 [2596] warn: recursive rmDir './Data/private\20140521'
+2014-05-29 10:01:35 [3552] Client connected-------, Server TCP Socket 724 remote: 192.168.10.50:62573
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:01:35 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-29 10:02:04 [3552] debug: DB_SavePersonPrivate::onFinished acct:9 result:0
+2014-05-29 10:02:36 [3552] Client connected-------, Server TCP Socket 716 remote: 192.168.10.46:36671
+2014-05-29 10:02:44 [3552] debug: DB_LoadFriends::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadGroups::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadGroupDetail::onFinished grp:6 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadMessages::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:9 result:0
+2014-05-29 10:02:44 [3552] debug: DB_LoadUnreadGroupMessages::onFinished acct:9 result:0
+2014-05-29 10:02:45 [2596] error: open './Data/private/20140529/person/9/2', 系统找不到指定的文件。
+2014-05-29 10:07:22 [3552] debug: DB_SetAccountAvatar::onFinished acct:acct:9 hello2 result:19
+2014-05-29 10:07:31 [3552] debug: DB_SetAccountAvatar::onFinished acct:acct:9 hello2 result:19
+2014-05-29 10:09:06 [3552] debug: DB_SaveGroupPrivate::onFinished acct:3 result:0
+2014-05-29 10:09:36 [3552] debug: DB_SaveGroupPrivate::onFinished acct:3 result:0
+2014-05-29 10:09:38 [3552] debug: DB_SaveGroupPrivate::onFinished acct:3 result:0
+2014-05-29 10:09:39 [3552] debug: DB_SaveGroupPrivate::onFinished acct:3 result:0
+2014-05-29 10:09:39 [3524] debug: Server TCP Socket 724 remote: 192.168.10.50:62573 socket error, close it, 指定的网络名不再可用。
+2014-05-29 10:09:39 [3552] Client closed----------, Server TCP Socket 724 remote: 192.168.10.50:62573
+2014-05-29 10:09:44 [2456] warn: destroy Server TCP Socket 724 remote: 192.168.10.50:62573
+2014-05-29 10:14:08 [3560] debug: TCP Listen Socket 544 listen: 192.168.3.59:20000 socket error, close it, 指定的网络名不再可用。
+2014-05-29 10:14:08 [2456] error: TCP Listen Socket 544 listen: 192.168.3.59:20000 closed
+2014-05-29 11:00:45 [3560] debug: Server TCP Socket 716 remote: 192.168.10.46:36671 socket error, close it, 指定的网络名不再可用。
+2014-05-29 11:00:45 [3552] Client closed----------, Server TCP Socket 716 remote: 192.168.10.46:36671
+2014-05-29 11:00:50 [2456] warn: destroy Server TCP Socket 716 remote: 192.168.10.46:36671

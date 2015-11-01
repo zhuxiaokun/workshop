@@ -1,0 +1,138 @@
+2014-03-03 13:23:45 [21076] [string "c:addFriend('hello1')"]:1: attempt to call method 'addFriend' (a nil value)
+	addFriend(C) at =[C]
+	 at c:addFriend('hello1') line:1
+
+2014-03-03 13:56:46 [28092] [string "C:CLOSE()"]:1: attempt to index global 'C' (a nil value)
+	 at =[C]
+	 at C:CLOSE() line:1
+
+2014-03-03 14:58:45 [25716] [string "c:addFriend('hello2')'"]:1: unfinished string near '<eof>'
+
+2014-03-04 15:14:55 [31780] [string "s"]:1: '=' expected near '<eof>'
+
+2014-03-04 17:08:17 [33268] [string "print_friends()"]:1: attempt to call global 'print_friends' (a nil value)
+	print_friends(C) at =[C]
+	 at print_friends() line:1
+
+2014-03-05 09:15:29 [36720] [string "c:login('hello2',''abc)"]:1: ')' expected near 'abc'
+
+2014-03-05 09:18:14 [36720] [string "c:login('hello2',''abc)"]:1: ')' expected near 'abc'
+
+2014-03-05 09:18:21 [36720] [string "c:login('hello2',''abc)"]:1: ')' expected near 'abc'
+
+2014-03-05 10:56:17 [36788] [string "c;print_groups()"]:1: '=' expected near ';'
+
+2014-04-21 15:30:29 [4768] [string "c:addfriend(9,'yes');"]:1: attempt to call method 'addfriend' (a nil value)
+	addfriend(C) at =[C]
+	 at c:addfriend(9,'yes'); line:1
+
+2014-04-21 15:31:45 [4768] [string "c:print_friend();"]:1: attempt to call method 'print_friend' (a nil value)
+	print_friend(C) at =[C]
+	 at c:print_friend(); line:1
+
+2014-04-21 15:33:16 [4768] [string "c:print_friend();"]:1: attempt to call method 'print_friend' (a nil value)
+	print_friend(C) at =[C]
+	 at c:print_friend(); line:1
+
+2014-04-22 09:14:06 [4308] [string "login('hello1','abc')"]:1: attempt to call global 'login' (a nil value)
+	login(C) at =[C]
+	 at login('hello1','abc') line:1
+
+2014-04-22 13:09:17 [4576] [string "connect('192.168.3.41',20000)"]:1: attempt to call global 'connect' (a nil value)
+	connect(C) at =[C]
+	 at connect('192.168.3.41',20000) line:1
+
+2014-04-22 13:10:54 [4576] [string "c:send()"]:1: attempt to call method 'send' (a nil value)
+	send(C) at =[C]
+	 at c:send() line:1
+
+2014-04-22 13:16:41 [4576] [string "connect('192.168.3.41',20000)"]:1: attempt to call global 'connect' (a nil value)
+	connect(C) at =[C]
+	 at connect('192.168.3.41',20000) line:1
+
+2014-04-22 13:16:46 [4576] [string "connect('192.168.3.41',20000)"]:1: attempt to call global 'connect' (a nil value)
+	connect(C) at =[C]
+	 at connect('192.168.3.41',20000) line:1
+
+2014-04-22 13:58:28 [1800] [string "c:print_group()"]:1: attempt to call method 'print_group' (a nil value)
+	print_group(C) at =[C]
+	 at c:print_group() line:1
+
+2014-04-22 14:57:24 [4820] [string "say"]:1: '=' expected near '<eof>'
+
+2014-04-23 11:20:45 [4340] [string "c:connect('192.168.3.41'20000)"]:1: ')' expected near '20000'
+
+2014-04-24 12:00:36 [1764] [string "c:getGroup(3)"]:1: attempt to call method 'getGroup' (a nil value)
+	getGroup(C) at =[C]
+	 at c:getGroup(3) line:1
+
+2014-04-24 13:41:13 [9384] [string "\"]:1: unexpected symbol near '\'
+
+2014-04-24 14:02:25 [8476] [string "c:jionGroup(57)"]:1: attempt to call method 'jionGroup' (a nil value)
+	jionGroup(C) at =[C]
+	 at c:jionGroup(57) line:1
+
+2014-04-24 14:03:01 [8476] [string "c:jionGroup('11111111111')"]:1: attempt to call method 'jionGroup' (a nil value)
+	jionGroup(C) at =[C]
+	 at c:jionGroup('11111111111') line:1
+
+2014-04-24 16:28:38 [2896] [string "\"]:1: unexpected symbol near '\'
+
+2014-04-24 16:53:17 [5352] [string "c:joingroup('g1')"]:1: attempt to call method 'joingroup' (a nil value)
+	joingroup(C) at =[C]
+	 at c:joingroup('g1') line:1
+
+2014-04-25 09:40:28 [6776] [string "c:_addFriend(9)"]:1: attempt to call method '_addFriend' (a nil value)
+	_addFriend(C) at =[C]
+	 at c:_addFriend(9) line:1
+
+2014-04-25 10:46:37 [2644] [string "c:connect('192.168.3.20000)"]:1: unfinished string near '<eof>'
+
+2014-04-25 10:54:59 [5500] [string "]"]:1: unexpected symbol near ']'
+
+2014-04-25 10:59:22 [4520] [string "c:connect('192.168.3.41',20000\)"]:1: ')' expected near '\'
+
+2014-04-25 10:59:24 [4520] [string "\"]:1: unexpected symbol near '\'
+
+2014-04-25 16:05:58 [3476] [string "c:addfriend(int<64>9,'fffffgfg')"]:1: attempt to compare nil with number
+	 at =[C]
+	 at c:addfriend(int<64>9,'fffffgfg') line:1
+
+2014-04-25 16:06:08 [3476] [string "c:addfriend(int<64> 9,'fffffgfg')"]:1: attempt to compare nil with number
+	 at =[C]
+	 at c:addfriend(int<64> 9,'fffffgfg') line:1
+
+2014-04-25 16:06:20 [3476] [string "c:addfriend(int64 9,'fffffgfg')"]:1: ')' expected near '9'
+
+2014-04-25 16:07:27 [3476] [string "c:addfriend(_int64 9,'fffffgfg')"]:1: ')' expected near '9'
+
+2014-04-25 16:07:50 [3476] [string "c:addfriend((int64) 9,'fffffgfg')"]:1: ')' expected near '9'
+
+2014-04-25 16:08:02 [3476] [string "c:addfriend((_int64) 9,'fffffgfg')"]:1: ')' expected near '9'
+
+2014-04-25 16:08:47 [3476] [string "c:addfriend(INT64(9),'fffffgfg')"]:1: attempt to call global 'INT64' (a nil value)
+	INT64(C) at =[C]
+	 at c:addfriend(INT64(9),'fffffgfg') line:1
+
+2014-04-25 16:09:26 [3476] [string "c:addFriend(INT64(9),'fffffgfg')"]:1: attempt to call global 'INT64' (a nil value)
+	INT64(C) at =[C]
+	 at c:addFriend(INT64(9),'fffffgfg') line:1
+
+2014-04-25 16:09:39 [3476] [string "c:addFriend((_int64) 9,'fffffgfg')"]:1: ')' expected near '9'
+
+2014-04-25 16:10:07 [3476] [string "c:addFriend((_int64) 9,'fffffgfg')"]:1: ')' expected near '9'
+
+2014-04-25 16:10:57 [3476] [string "c:addFriend((_int64)9,'dfdf')"]:1: ')' expected near '9'
+
+2014-04-25 16:27:46 [3476] [string "c:addFriend(_int64(9),'dfdf')"]:1: attempt to call global '_int64' (a nil value)
+	_int64(C) at =[C]
+	 at c:addFriend(_int64(9),'dfdf') line:1
+
+2014-04-25 16:28:06 [3476] [string "c:addFriend(INT64(9),'dfdf')"]:1: attempt to call global 'INT64' (a nil value)
+	INT64(C) at =[C]
+	 at c:addFriend(INT64(9),'dfdf') line:1
+
+2014-04-28 11:18:41 [5424] [string "c:addFriend(<INT64><9>,'gfg')"]:1: unexpected symbol near '<'
+
+2014-04-28 17:29:56 [6980] [string "\"]:1: unexpected symbol near '\'
+

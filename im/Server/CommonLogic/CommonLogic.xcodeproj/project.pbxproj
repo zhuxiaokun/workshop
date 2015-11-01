@@ -1,0 +1,174 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		13A9706918D9843600FDDA09 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		13A9706A18D9843600FDDA09 /* .svn */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .svn; sourceTree = "<group>"; };
+		13A9706B18D9843600FDDA09 /* CommonLogic.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CommonLogic.vcproj; sourceTree = "<group>"; };
+		13A9706C18D9843600FDDA09 /* CommSession */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CommSession; sourceTree = "<group>"; };
+		13A9706D18D9843600FDDA09 /* Database */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Database; sourceTree = "<group>"; };
+		13A9706E18D9843600FDDA09 /* EventSystem */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EventSystem; sourceTree = "<group>"; };
+		13A9706F18D9843600FDDA09 /* KAttrParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KAttrParser.cpp; sourceTree = "<group>"; };
+		13A9707018D9843600FDDA09 /* KAttrParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAttrParser.h; sourceTree = "<group>"; };
+		13A9707118D9843600FDDA09 /* KConsoleThread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KConsoleThread.cpp; sourceTree = "<group>"; };
+		13A9707218D9843600FDDA09 /* KConsoleThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KConsoleThread.h; sourceTree = "<group>"; };
+		13A9707318D9843600FDDA09 /* KGlobalFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KGlobalFunction.cpp; sourceTree = "<group>"; };
+		13A9707418D9843600FDDA09 /* KGlobalFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGlobalFunction.h; sourceTree = "<group>"; };
+		13A9707518D9843600FDDA09 /* KPacketGateTmpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPacketGateTmpl.h; sourceTree = "<group>"; };
+		13A9707618D9843600FDDA09 /* KTaskSchedule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KTaskSchedule.cpp; sourceTree = "<group>"; };
+		13A9707718D9843600FDDA09 /* KTaskSchedule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTaskSchedule.h; sourceTree = "<group>"; };
+		13A9707818D9843600FDDA09 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		13A9707918D9843600FDDA09 /* ObjectFactory */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ObjectFactory; sourceTree = "<group>"; };
+		13A9707A18D9843600FDDA09 /* Socket */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Socket; sourceTree = "<group>"; };
+		13A9707B18D9843600FDDA09 /* StringManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = StringManager; sourceTree = "<group>"; };
+		13A9707C18D9843600FDDA09 /* Timer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Timer; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13A9706318D9843600FDDA09 = {
+			isa = PBXGroup;
+			children = (
+				13A9706918D9843600FDDA09 /* .DS_Store */,
+				13A9706A18D9843600FDDA09 /* .svn */,
+				13A9706B18D9843600FDDA09 /* CommonLogic.vcproj */,
+				13A9706C18D9843600FDDA09 /* CommSession */,
+				13A9706D18D9843600FDDA09 /* Database */,
+				13A9706E18D9843600FDDA09 /* EventSystem */,
+				13A9706F18D9843600FDDA09 /* KAttrParser.cpp */,
+				13A9707018D9843600FDDA09 /* KAttrParser.h */,
+				13A9707118D9843600FDDA09 /* KConsoleThread.cpp */,
+				13A9707218D9843600FDDA09 /* KConsoleThread.h */,
+				13A9707318D9843600FDDA09 /* KGlobalFunction.cpp */,
+				13A9707418D9843600FDDA09 /* KGlobalFunction.h */,
+				13A9707518D9843600FDDA09 /* KPacketGateTmpl.h */,
+				13A9707618D9843600FDDA09 /* KTaskSchedule.cpp */,
+				13A9707718D9843600FDDA09 /* KTaskSchedule.h */,
+				13A9707818D9843600FDDA09 /* Makefile */,
+				13A9707918D9843600FDDA09 /* ObjectFactory */,
+				13A9707A18D9843600FDDA09 /* Socket */,
+				13A9707B18D9843600FDDA09 /* StringManager */,
+				13A9707C18D9843600FDDA09 /* Timer */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		13A9706818D9843600FDDA09 /* CommonLogic */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 13A9707D18D9843600FDDA09 /* Build configuration list for PBXLegacyTarget "CommonLogic" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/jiguanghudong/Downloads/work/im/Server/CommonLogic;
+			dependencies = (
+			);
+			name = CommonLogic;
+			passBuildSettingsInEnvironment = 1;
+			productName = CommonLogic;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		13A9706418D9843600FDDA09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 13A9706718D9843600FDDA09 /* Build configuration list for PBXProject "CommonLogic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13A9706318D9843600FDDA09;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A9706818D9843600FDDA09 /* CommonLogic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		13A9706518D9843600FDDA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		13A9706618D9843600FDDA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		13A9707E18D9843600FDDA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = CommonLogic;
+			};
+			name = Debug;
+		};
+		13A9707F18D9843600FDDA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = CommonLogic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A9706718D9843600FDDA09 /* Build configuration list for PBXProject "CommonLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A9706518D9843600FDDA09 /* Debug */,
+				13A9706618D9843600FDDA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A9707D18D9843600FDDA09 /* Build configuration list for PBXLegacyTarget "CommonLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A9707E18D9843600FDDA09 /* Debug */,
+				13A9707F18D9843600FDDA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A9706418D9843600FDDA09 /* Project object */;
+}

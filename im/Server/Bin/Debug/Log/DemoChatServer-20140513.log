@@ -1,0 +1,83 @@
+2014-05-13 03:00:04 [1516] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140505 result:0
+2014-05-13 03:00:04 [4976] warn: recursive rmDir './Data/private\20140505'
+2014-05-13 13:43:08 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.79:50020
+2014-05-13 13:43:16 [3960] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-13 13:43:49 [1516] debug: DB_RemoveFriend::onFinished acct:57 friend:13 result:0
+2014-05-13 13:43:53 [3308] warn: Server TCP Socket 580 remote: 192.168.3.79:50020 peer closed, close it
+2014-05-13 13:43:53 [3308] debug: Server TCP Socket 580 remote: 192.168.3.79:50020 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 13:43:53 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.79:50020
+2014-05-13 13:43:56 [1516] Client connected-------, Server TCP Socket 680 remote: 192.168.3.79:50023
+2014-05-13 13:43:58 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.79:50020
+2014-05-13 14:04:20 [3308] warn: Server TCP Socket 680 remote: 192.168.3.79:50023 peer closed, close it
+2014-05-13 14:04:20 [3308] debug: Server TCP Socket 680 remote: 192.168.3.79:50023 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 14:04:20 [1516] Client closed----------, Server TCP Socket 680 remote: 192.168.3.79:50023
+2014-05-13 14:04:25 [3796] warn: destroy Server TCP Socket 680 remote: 192.168.3.79:50023
+2014-05-13 14:04:33 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.79:50053
+2014-05-13 15:17:26 [3280] warn: Server TCP Socket 580 remote: 192.168.3.79:50053 peer closed, close it
+2014-05-13 15:17:26 [3280] debug: Server TCP Socket 580 remote: 192.168.3.79:50053 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 15:17:26 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.79:50053
+2014-05-13 15:17:31 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.79:50053
+2014-05-13 15:31:17 [1516] Client connected-------, Server TCP Socket 680 remote: 192.168.3.79:51328
+2014-05-13 16:17:10 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.88:1966
+2014-05-13 16:17:30 [1516] debug: DB_LoadFriends::onFinished acct:91 result:0
+2014-05-13 16:17:30 [1516] debug: DB_LoadGroups::onFinished acct:91 result:0
+2014-05-13 16:17:30 [1516] debug: DB_LoadGroupDetail::onFinished grp:56 result:0
+2014-05-13 16:21:43 [3308] warn: Server TCP Socket 680 remote: 192.168.3.79:51328 peer closed, close it
+2014-05-13 16:21:43 [3308] debug: Server TCP Socket 680 remote: 192.168.3.79:51328 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 16:21:43 [1516] Client closed----------, Server TCP Socket 680 remote: 192.168.3.79:51328
+2014-05-13 16:21:48 [3796] warn: destroy Server TCP Socket 680 remote: 192.168.3.79:51328
+2014-05-13 16:21:49 [1516] Client connected-------, Server TCP Socket 720 remote: 192.168.3.79:52561
+2014-05-13 16:22:05 [3308] warn: Server TCP Socket 580 remote: 192.168.3.88:1966 peer closed, close it
+2014-05-13 16:22:05 [3308] debug: Server TCP Socket 580 remote: 192.168.3.88:1966 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 16:22:05 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.88:1966
+2014-05-13 16:22:10 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.88:1966
+2014-05-13 16:47:54 [3308] warn: Server TCP Socket 720 remote: 192.168.3.79:52561 peer closed, close it
+2014-05-13 16:47:54 [3308] debug: Server TCP Socket 720 remote: 192.168.3.79:52561 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 16:47:54 [1516] Client closed----------, Server TCP Socket 720 remote: 192.168.3.79:52561
+2014-05-13 16:47:57 [1516] Client connected-------, Server TCP Socket 680 remote: 192.168.3.79:52565
+2014-05-13 16:47:59 [3796] warn: destroy Server TCP Socket 720 remote: 192.168.3.79:52561
+2014-05-13 16:48:13 [1516] Client connected-------, Server TCP Socket 720 remote: 192.168.3.88:1998
+2014-05-13 16:48:27 [3280] warn: Server TCP Socket 720 remote: 192.168.3.88:1998 peer closed, close it
+2014-05-13 16:48:27 [3280] debug: Server TCP Socket 720 remote: 192.168.3.88:1998 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 16:48:27 [1516] Client closed----------, Server TCP Socket 720 remote: 192.168.3.88:1998
+2014-05-13 16:48:32 [3796] warn: destroy Server TCP Socket 720 remote: 192.168.3.88:1998
+2014-05-13 16:54:00 [4684] warn: Server TCP Socket 680 remote: 192.168.3.79:52565 peer closed, close it
+2014-05-13 16:54:00 [4684] debug: Server TCP Socket 680 remote: 192.168.3.79:52565 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 16:54:00 [1516] Client closed----------, Server TCP Socket 680 remote: 192.168.3.79:52565
+2014-05-13 16:54:05 [3796] warn: destroy Server TCP Socket 680 remote: 192.168.3.79:52565
+2014-05-13 16:54:08 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.79:52592
+2014-05-13 16:56:29 [1516] Client connected-------, Server TCP Socket 680 remote: 192.168.3.88:2006
+2014-05-13 17:44:58 [4768] warn: Server TCP Socket 580 remote: 192.168.3.79:52592 peer closed, close it
+2014-05-13 17:44:58 [4768] debug: Server TCP Socket 580 remote: 192.168.3.79:52592 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 17:44:58 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.79:52592
+2014-05-13 17:45:02 [1516] Client connected-------, Server TCP Socket 720 remote: 192.168.3.79:52689
+2014-05-13 17:45:03 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.79:52592
+2014-05-13 17:46:02 [3280] warn: Server TCP Socket 720 remote: 192.168.3.79:52689 peer closed, close it
+2014-05-13 17:46:02 [3280] debug: Server TCP Socket 720 remote: 192.168.3.79:52689 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 17:46:02 [1516] Client closed----------, Server TCP Socket 720 remote: 192.168.3.79:52689
+2014-05-13 17:46:05 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.79:52692
+2014-05-13 17:46:07 [3796] warn: destroy Server TCP Socket 720 remote: 192.168.3.79:52689
+2014-05-13 17:49:52 [4684] warn: Server TCP Socket 580 remote: 192.168.3.79:52692 peer closed, close it
+2014-05-13 17:49:52 [4684] debug: Server TCP Socket 580 remote: 192.168.3.79:52692 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 17:49:52 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.79:52692
+2014-05-13 17:49:56 [1516] Client connected-------, Server TCP Socket 720 remote: 192.168.3.79:52695
+2014-05-13 17:49:57 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.79:52692
+2014-05-13 17:54:22 [328] warn: Server TCP Socket 720 remote: 192.168.3.79:52695 peer closed, close it
+2014-05-13 17:54:22 [328] debug: Server TCP Socket 720 remote: 192.168.3.79:52695 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 17:54:22 [1516] Client closed----------, Server TCP Socket 720 remote: 192.168.3.79:52695
+2014-05-13 17:54:25 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.79:52700
+2014-05-13 17:54:27 [3796] warn: destroy Server TCP Socket 720 remote: 192.168.3.79:52695
+2014-05-13 17:57:59 [4684] warn: Server TCP Socket 580 remote: 192.168.3.79:52700 peer closed, close it
+2014-05-13 17:57:59 [4684] debug: Server TCP Socket 580 remote: 192.168.3.79:52700 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 17:57:59 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.79:52700
+2014-05-13 17:58:03 [1516] Client connected-------, Server TCP Socket 720 remote: 192.168.3.79:52704
+2014-05-13 17:58:04 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.79:52700
+2014-05-13 17:58:33 [1516] debug: DB_SavePersonPrivate::onFinished acct:90 result:0
+2014-05-13 17:59:29 [1516] debug: DB_SavePersonPrivate::onFinished acct:90 result:0
+2014-05-13 18:42:21 [328] debug: Server TCP Socket 680 remote: 192.168.3.88:2006 socket error, close it, 指定的网络名不再可用。
+2014-05-13 18:42:21 [1516] Client closed----------, Server TCP Socket 680 remote: 192.168.3.88:2006
+2014-05-13 18:42:26 [3796] warn: destroy Server TCP Socket 680 remote: 192.168.3.88:2006
+2014-05-13 18:42:31 [328] warn: Server TCP Socket 720 remote: 192.168.3.79:52704 peer closed, close it
+2014-05-13 18:42:31 [328] debug: Server TCP Socket 720 remote: 192.168.3.79:52704 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-13 18:42:31 [1516] Client closed----------, Server TCP Socket 720 remote: 192.168.3.79:52704
+2014-05-13 18:42:36 [3796] warn: destroy Server TCP Socket 720 remote: 192.168.3.79:52704

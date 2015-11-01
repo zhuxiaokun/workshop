@@ -1,0 +1,1210 @@
+2014-05-21 03:00:00 [3464] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140513 result:0
+2014-05-21 03:00:00 [3576] warn: recursive rmDir './Data/private\20140513'
+2014-05-21 09:51:51 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49651
+2014-05-21 10:37:08 [3588] warn: Server TCP Socket 688 remote: 192.168.3.79:49651 peer closed, close it
+2014-05-21 10:37:08 [3588] debug: Server TCP Socket 688 remote: 192.168.3.79:49651 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:37:08 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49651
+2014-05-21 10:37:11 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49772
+2014-05-21 10:37:13 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49651
+2014-05-21 10:44:14 [3588] warn: Server TCP Socket 756 remote: 192.168.3.79:49772 peer closed, close it
+2014-05-21 10:44:14 [3588] debug: Server TCP Socket 756 remote: 192.168.3.79:49772 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:44:14 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49772
+2014-05-21 10:44:17 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49828
+2014-05-21 10:44:19 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49772
+2014-05-21 10:47:19 [3592] warn: Server TCP Socket 688 remote: 192.168.3.79:49828 peer closed, close it
+2014-05-21 10:47:19 [3592] debug: Server TCP Socket 688 remote: 192.168.3.79:49828 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:47:19 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49828
+2014-05-21 10:47:21 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49883
+2014-05-21 10:47:24 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49828
+2014-05-21 10:50:25 [3600] warn: Server TCP Socket 756 remote: 192.168.3.79:49883 peer closed, close it
+2014-05-21 10:50:25 [3600] debug: Server TCP Socket 756 remote: 192.168.3.79:49883 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:50:26 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49883
+2014-05-21 10:50:28 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49887
+2014-05-21 10:50:31 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49883
+2014-05-21 10:51:03 [3592] warn: Server TCP Socket 688 remote: 192.168.3.79:49887 peer closed, close it
+2014-05-21 10:51:03 [3592] debug: Server TCP Socket 688 remote: 192.168.3.79:49887 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:51:03 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49887
+2014-05-21 10:51:05 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49890
+2014-05-21 10:51:08 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49887
+2014-05-21 10:52:28 [3596] warn: Server TCP Socket 756 remote: 192.168.3.79:49890 peer closed, close it
+2014-05-21 10:52:28 [3596] debug: Server TCP Socket 756 remote: 192.168.3.79:49890 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:52:28 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49890
+2014-05-21 10:52:30 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49894
+2014-05-21 10:52:33 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49890
+2014-05-21 10:54:41 [3588] warn: Server TCP Socket 688 remote: 192.168.3.79:49894 peer closed, close it
+2014-05-21 10:54:41 [3588] debug: Server TCP Socket 688 remote: 192.168.3.79:49894 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:54:41 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49894
+2014-05-21 10:54:43 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49899
+2014-05-21 10:54:46 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49894
+2014-05-21 10:56:29 [3592] warn: Server TCP Socket 756 remote: 192.168.3.79:49899 peer closed, close it
+2014-05-21 10:56:29 [3592] debug: Server TCP Socket 756 remote: 192.168.3.79:49899 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:56:29 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49899
+2014-05-21 10:56:31 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49902
+2014-05-21 10:56:34 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49899
+2014-05-21 10:56:50 [3592] warn: Server TCP Socket 688 remote: 192.168.3.79:49902 peer closed, close it
+2014-05-21 10:56:50 [3592] debug: Server TCP Socket 688 remote: 192.168.3.79:49902 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:56:50 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49902
+2014-05-21 10:56:52 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49905
+2014-05-21 10:56:55 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49902
+2014-05-21 10:57:20 [3584] warn: Server TCP Socket 756 remote: 192.168.3.79:49905 peer closed, close it
+2014-05-21 10:57:20 [3584] debug: Server TCP Socket 756 remote: 192.168.3.79:49905 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:57:20 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49905
+2014-05-21 10:57:22 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49908
+2014-05-21 10:57:25 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49905
+2014-05-21 10:57:38 [3596] warn: Server TCP Socket 688 remote: 192.168.3.79:49908 peer closed, close it
+2014-05-21 10:57:38 [3596] debug: Server TCP Socket 688 remote: 192.168.3.79:49908 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:57:38 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49908
+2014-05-21 10:57:40 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49911
+2014-05-21 10:57:43 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49908
+2014-05-21 10:58:00 [3600] warn: Server TCP Socket 756 remote: 192.168.3.79:49911 peer closed, close it
+2014-05-21 10:58:00 [3600] debug: Server TCP Socket 756 remote: 192.168.3.79:49911 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:58:00 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49911
+2014-05-21 10:58:02 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49914
+2014-05-21 10:58:05 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49911
+2014-05-21 10:58:19 [3592] warn: Server TCP Socket 688 remote: 192.168.3.79:49914 peer closed, close it
+2014-05-21 10:58:19 [3592] debug: Server TCP Socket 688 remote: 192.168.3.79:49914 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:58:19 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49914
+2014-05-21 10:58:21 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49917
+2014-05-21 10:58:24 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49914
+2014-05-21 10:59:46 [3584] warn: Server TCP Socket 756 remote: 192.168.3.79:49917 peer closed, close it
+2014-05-21 10:59:46 [3584] debug: Server TCP Socket 756 remote: 192.168.3.79:49917 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 10:59:46 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49917
+2014-05-21 10:59:48 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49920
+2014-05-21 10:59:51 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49917
+2014-05-21 11:00:04 [3588] warn: Server TCP Socket 688 remote: 192.168.3.79:49920 peer closed, close it
+2014-05-21 11:00:04 [3588] debug: Server TCP Socket 688 remote: 192.168.3.79:49920 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 11:00:04 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49920
+2014-05-21 11:00:06 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49924
+2014-05-21 11:00:09 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49920
+2014-05-21 11:01:30 [3600] warn: Server TCP Socket 756 remote: 192.168.3.79:49924 peer closed, close it
+2014-05-21 11:01:30 [3600] debug: Server TCP Socket 756 remote: 192.168.3.79:49924 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 11:01:30 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49924
+2014-05-21 11:01:33 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49927
+2014-05-21 11:01:35 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49924
+2014-05-21 11:02:37 [3584] warn: Server TCP Socket 688 remote: 192.168.3.79:49927 peer closed, close it
+2014-05-21 11:02:37 [3584] debug: Server TCP Socket 688 remote: 192.168.3.79:49927 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 11:02:37 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49927
+2014-05-21 11:02:39 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49931
+2014-05-21 11:02:42 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49927
+2014-05-21 11:02:57 [3592] warn: Server TCP Socket 756 remote: 192.168.3.79:49931 peer closed, close it
+2014-05-21 11:02:57 [3592] debug: Server TCP Socket 756 remote: 192.168.3.79:49931 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 11:02:57 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49931
+2014-05-21 11:02:59 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49934
+2014-05-21 11:03:02 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49931
+2014-05-21 11:03:06 [3464] debug: DB_Authenticate::onFinished acct:0 result:18
+2014-05-21 11:03:06 [3592] warn: Server TCP Socket 688 remote: 192.168.3.79:49934 peer closed, close it
+2014-05-21 11:03:06 [3592] debug: Server TCP Socket 688 remote: 192.168.3.79:49934 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 11:03:06 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49934
+2014-05-21 11:03:10 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49935
+2014-05-21 11:03:11 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49934
+2014-05-21 11:23:18 [3584] warn: Server TCP Socket 756 remote: 192.168.3.79:49935 peer closed, close it
+2014-05-21 11:23:18 [3584] debug: Server TCP Socket 756 remote: 192.168.3.79:49935 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 11:23:18 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49935
+2014-05-21 11:23:21 [3464] Client connected-------, Server TCP Socket 688 remote: 192.168.3.79:49949
+2014-05-21 11:23:23 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49935
+2014-05-21 11:23:52 [3592] warn: Server TCP Socket 688 remote: 192.168.3.79:49949 peer closed, close it
+2014-05-21 11:23:52 [3592] debug: Server TCP Socket 688 remote: 192.168.3.79:49949 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 11:23:52 [3464] Client closed----------, Server TCP Socket 688 remote: 192.168.3.79:49949
+2014-05-21 11:23:54 [3464] Client connected-------, Server TCP Socket 756 remote: 192.168.3.79:49954
+2014-05-21 11:23:57 [3604] warn: destroy Server TCP Socket 688 remote: 192.168.3.79:49949
+2014-05-21 11:27:29 [3588] warn: Server TCP Socket 756 remote: 192.168.3.79:49954 peer closed, close it
+2014-05-21 11:27:29 [3588] debug: Server TCP Socket 756 remote: 192.168.3.79:49954 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 11:27:29 [3464] Client closed----------, Server TCP Socket 756 remote: 192.168.3.79:49954
+2014-05-21 11:27:34 [3604] warn: destroy Server TCP Socket 756 remote: 192.168.3.79:49954
+2014-05-21 13:19:29 [3832] |------------------------------------------------|
+2014-05-21 13:19:29 [3832] |                  DemoChatServer                |
+2014-05-21 13:19:29 [3832] |------------------------------------------------|
+2014-05-21 13:19:29 [3832] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140513 result:0
+2014-05-21 13:38:15 [3832] Client connected-------, Server TCP Socket 556 remote: 192.168.3.79:50029
+2014-05-21 13:39:19 [3832] debug: DB_Authenticate::onFinished acct:0 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadFriends::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroups::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:41 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:46 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:38 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:39 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:40 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:48 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:62 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:45 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:42 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:47 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:52 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:43 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:44 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:50 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:51 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:49 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:53 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:54 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:55 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadGroupDetail::onFinished grp:56 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:39:19 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:41:32 [3832] debug: DB_SaveGroupPrivate::onFinished acct:40 result:0
+2014-05-21 13:48:03 [12] warn: Server TCP Socket 556 remote: 192.168.3.79:50029 peer closed, close it
+2014-05-21 13:48:03 [1844] warn: Server TCP Socket 556 remote: 192.168.3.79:50029 peer closed, close it
+2014-05-21 13:48:03 [1844] debug: Server TCP Socket 556 remote: 192.168.3.79:50029 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 13:48:03 [12] debug: Server TCP Socket 556 remote: 192.168.3.79:50029 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 13:48:03 [3832] Client closed----------, Server TCP Socket 556 remote: 192.168.3.79:50029
+2014-05-21 13:48:05 [3832] Client connected-------, Server TCP Socket 568 remote: 192.168.3.79:50036
+2014-05-21 13:48:08 [712] warn: destroy Server TCP Socket 556 remote: 192.168.3.79:50029
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:09 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:48:43 [1200] warn: Server TCP Socket 568 remote: 192.168.3.79:50036 peer closed, close it
+2014-05-21 13:48:43 [1200] debug: Server TCP Socket 568 remote: 192.168.3.79:50036 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 13:48:43 [3832] Client closed----------, Server TCP Socket 568 remote: 192.168.3.79:50036
+2014-05-21 13:49:06 [1844] warn: Server TCP Socket 556 remote: 192.168.3.79:50040 peer closed, close it
+2014-05-21 13:49:06 [1844] debug: Server TCP Socket 556 remote: 192.168.3.79:50040 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 13:49:11 [712] warn: destroy Server TCP Socket 556 remote: 192.168.3.79:50040
+2014-05-21 13:49:35 [712] warn: destroy Server TCP Socket 568 remote: 192.168.3.79:50036
+2014-05-21 13:49:35 [3832] Client connected-------, Server TCP Socket 568 remote: 192.168.3.79:50043
+2014-05-21 13:49:35 [3832] error: login, Server TCP Socket 568 remote: 192.168.3.79:50043 already has an account acct:57 mz1
+2014-05-21 13:49:35 [916] debug: Server TCP Socket 568 remote: 192.168.3.79:50043 socket error, close it, 指定的网络名不再可用。
+2014-05-21 13:49:35 [3832] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50043
+2014-05-21 13:49:40 [712] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50043
+2014-05-21 13:51:37 [3832] Client connected-------, Server TCP Socket 556 remote: 192.168.3.79:50045
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:51:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:48 [916] warn: Server TCP Socket 556 remote: 192.168.3.79:50045 peer closed, close it
+2014-05-21 13:54:48 [916] debug: Server TCP Socket 556 remote: 192.168.3.79:50045 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 13:54:48 [3832] Client closed----------, Server TCP Socket 556 remote: 192.168.3.79:50045
+2014-05-21 13:54:50 [3832] Client connected-------, Server TCP Socket 568 remote: 192.168.3.79:50048
+2014-05-21 13:54:53 [712] warn: destroy Server TCP Socket 556 remote: 192.168.3.79:50045
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:54:55 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:00 [916] warn: Server TCP Socket 568 remote: 192.168.3.79:50048 peer closed, close it
+2014-05-21 13:57:00 [916] debug: Server TCP Socket 568 remote: 192.168.3.79:50048 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 13:57:00 [3832] Client closed----------, Server TCP Socket 568 remote: 192.168.3.79:50048
+2014-05-21 13:57:02 [3832] Client connected-------, Server TCP Socket 556 remote: 192.168.3.79:50052
+2014-05-21 13:57:05 [712] warn: destroy Server TCP Socket 568 remote: 192.168.3.79:50048
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 13:57:06 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:30 [916] warn: Server TCP Socket 556 remote: 192.168.3.79:50052 peer closed, close it
+2014-05-21 14:01:30 [916] debug: Server TCP Socket 556 remote: 192.168.3.79:50052 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:01:30 [3832] Client closed----------, Server TCP Socket 556 remote: 192.168.3.79:50052
+2014-05-21 14:01:32 [3832] Client connected-------, Server TCP Socket 568 remote: 192.168.3.79:50058
+2014-05-21 14:01:35 [712] warn: destroy Server TCP Socket 556 remote: 192.168.3.79:50052
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:01:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:02:13 [3832] debug: DB_SaveGroupPrivate::onFinished acct:40 result:0
+2014-05-21 14:03:46 [3724] warn: Server TCP Socket 568 remote: 192.168.3.79:50058 peer closed, close it
+2014-05-21 14:03:46 [3724] debug: Server TCP Socket 568 remote: 192.168.3.79:50058 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:03:46 [3832] Client closed----------, Server TCP Socket 568 remote: 192.168.3.79:50058
+2014-05-21 14:03:49 [3832] Client connected-------, Server TCP Socket 556 remote: 192.168.3.79:50061
+2014-05-21 14:03:51 [712] warn: destroy Server TCP Socket 568 remote: 192.168.3.79:50058
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:03:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:04:17 [3896] error: open './Data/avatar/90/20140504-0036', 系统找不到指定的路径。
+2014-05-21 14:10:53 [12] warn: Server TCP Socket 556 remote: 192.168.3.79:50061 peer closed, close it
+2014-05-21 14:10:53 [12] debug: Server TCP Socket 556 remote: 192.168.3.79:50061 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:10:53 [3832] Client closed----------, Server TCP Socket 556 remote: 192.168.3.79:50061
+2014-05-21 14:10:55 [3832] Client connected-------, Server TCP Socket 568 remote: 192.168.3.79:50069
+2014-05-21 14:10:58 [712] warn: destroy Server TCP Socket 556 remote: 192.168.3.79:50061
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:11:02 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:43 [916] warn: Server TCP Socket 568 remote: 192.168.3.79:50069 peer closed, close it
+2014-05-21 14:14:43 [916] debug: Server TCP Socket 568 remote: 192.168.3.79:50069 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:14:43 [3832] Client closed----------, Server TCP Socket 568 remote: 192.168.3.79:50069
+2014-05-21 14:14:45 [3832] Client connected-------, Server TCP Socket 556 remote: 192.168.3.79:50072
+2014-05-21 14:14:48 [712] warn: destroy Server TCP Socket 568 remote: 192.168.3.79:50069
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:14:53 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:15:51 [3832] FS_SaveMessage_2 finish, result:0 filepath:'./Data/private/20140521/person/91/4'
+2014-05-21 14:15:51 [3832] debug: DB_SaveMessage_2 finished, result:0 filepath:'private/20140521/person/91/4'
+2014-05-21 14:16:10 [916] warn: Server TCP Socket 556 remote: 192.168.3.79:50072 peer closed, close it
+2014-05-21 14:16:10 [916] debug: Server TCP Socket 556 remote: 192.168.3.79:50072 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:16:10 [3832] Client closed----------, Server TCP Socket 556 remote: 192.168.3.79:50072
+2014-05-21 14:16:13 [3832] Client connected-------, Server TCP Socket 568 remote: 192.168.3.79:50076
+2014-05-21 14:16:15 [712] warn: destroy Server TCP Socket 556 remote: 192.168.3.79:50072
+2014-05-21 14:16:17 [3832] debug: DB_LoadFriends::onFinished acct:91 result:0
+2014-05-21 14:16:17 [3832] debug: DB_LoadGroups::onFinished acct:91 result:0
+2014-05-21 14:16:17 [3896] error: open './Data/avatar/90/20140410-0065.jpeg', 系统找不到指定的路径。
+2014-05-21 14:16:17 [3832] debug: DB_LoadUnreadMessages::onFinished acct:91 result:0
+2014-05-21 14:16:17 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 14:16:17 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 14:16:18 [3896] error: open './Data/avatar/117/20140411-0000.jpeg', 系统找不到指定的路径。
+2014-05-21 14:16:18 [3896] error: open './Data/avatar/118/20140411-0002.jpeg', 系统找不到指定的路径。
+2014-05-21 14:16:18 [3896] error: open './Data/avatar/120/20140411-0008.jpeg', 系统找不到指定的路径。
+2014-05-21 14:23:31 [916] warn: Server TCP Socket 568 remote: 192.168.3.79:50076 peer closed, close it
+2014-05-21 14:23:31 [916] debug: Server TCP Socket 568 remote: 192.168.3.79:50076 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:23:31 [3832] Client closed----------, Server TCP Socket 568 remote: 192.168.3.79:50076
+2014-05-21 14:23:34 [3832] Client connected-------, Server TCP Socket 556 remote: 192.168.3.79:50083
+2014-05-21 14:23:36 [712] warn: destroy Server TCP Socket 568 remote: 192.168.3.79:50076
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:23:38 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:48 [1844] warn: Server TCP Socket 556 remote: 192.168.3.79:50083 peer closed, close it
+2014-05-21 14:24:48 [1844] debug: Server TCP Socket 556 remote: 192.168.3.79:50083 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:24:48 [3832] Client closed----------, Server TCP Socket 556 remote: 192.168.3.79:50083
+2014-05-21 14:24:50 [3832] Client connected-------, Server TCP Socket 568 remote: 192.168.3.79:50086
+2014-05-21 14:24:53 [712] warn: destroy Server TCP Socket 556 remote: 192.168.3.79:50083
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:24:57 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:30:59 [3832] debug: DB_CreateGroup::onFinished acct:57 result:0
+2014-05-21 14:30:59 [3832] debug: DB_JoinGroup::onFinished acct:57 grp:63 result:0
+2014-05-21 14:31:07 [3724] warn: Server TCP Socket 568 remote: 192.168.3.79:50086 peer closed, close it
+2014-05-21 14:31:07 [3724] debug: Server TCP Socket 568 remote: 192.168.3.79:50086 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:31:07 [3832] Client closed----------, Server TCP Socket 568 remote: 192.168.3.79:50086
+2014-05-21 14:31:09 [3832] Client connected-------, Server TCP Socket 556 remote: 192.168.3.79:50095
+2014-05-21 14:31:12 [712] warn: destroy Server TCP Socket 568 remote: 192.168.3.79:50086
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:14 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 14:31:27 [3832] debug: DB_LoadGroupDetail::onFinished grp:63 result:0
+2014-05-21 14:32:11 [3724] warn: Server TCP Socket 556 remote: 192.168.3.79:50095 peer closed, close it
+2014-05-21 14:32:11 [3724] debug: Server TCP Socket 556 remote: 192.168.3.79:50095 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:32:11 [3832] Client closed----------, Server TCP Socket 556 remote: 192.168.3.79:50095
+2014-05-21 14:32:13 [3832] Client connected-------, Server TCP Socket 568 remote: 192.168.3.79:50098
+2014-05-21 14:32:16 [3896] error: open './Data/avatar/90/20140410-0065.jpeg', 系统找不到指定的路径。
+2014-05-21 14:32:16 [3832] debug: DB_LoadUnreadMessages::onFinished acct:91 result:0
+2014-05-21 14:32:16 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 14:32:16 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 14:32:16 [3896] error: open './Data/avatar/117/20140411-0000.jpeg', 系统找不到指定的路径。
+2014-05-21 14:32:16 [712] warn: destroy Server TCP Socket 556 remote: 192.168.3.79:50095
+2014-05-21 14:32:17 [3896] error: open './Data/avatar/118/20140411-0002.jpeg', 系统找不到指定的路径。
+2014-05-21 14:32:17 [3896] error: open './Data/avatar/120/20140411-0008.jpeg', 系统找不到指定的路径。
+2014-05-21 14:32:33 [3832] debug: DB_QueryGroupByNick::onFinished acct:91 result:9
+2014-05-21 14:32:33 [3832] error:  DB_QueryAccountByNick result:9
+2014-05-21 14:36:24 [3832] debug: DB_QueryGroupByNick::onFinished acct:91 result:9
+2014-05-21 14:36:24 [3832] error:  DB_QueryAccountByNick result:9
+2014-05-21 14:38:45 [916] warn: Server TCP Socket 568 remote: 192.168.3.79:50098 peer closed, close it
+2014-05-21 14:38:45 [916] debug: Server TCP Socket 568 remote: 192.168.3.79:50098 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:38:45 [3832] Client closed----------, Server TCP Socket 568 remote: 192.168.3.79:50098
+2014-05-21 14:38:46 [3832] Client connected-------, Server TCP Socket 556 remote: 192.168.3.79:50103
+2014-05-21 14:38:50 [712] warn: destroy Server TCP Socket 568 remote: 192.168.3.79:50098
+2014-05-21 14:38:50 [3896] error: open './Data/avatar/90/20140410-0065.jpeg', 系统找不到指定的路径。
+2014-05-21 14:38:50 [3832] debug: DB_LoadUnreadMessages::onFinished acct:91 result:0
+2014-05-21 14:38:50 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 14:38:50 [3832] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 14:38:50 [3336] error: open './Data/avatar/117/20140411-0000.jpeg', 系统找不到指定的路径。
+2014-05-21 14:38:51 [3336] error: open './Data/avatar/118/20140411-0002.jpeg', 系统找不到指定的路径。
+2014-05-21 14:38:51 [3896] error: open './Data/avatar/120/20140411-0008.jpeg', 系统找不到指定的路径。
+2014-05-21 14:39:49 [3832] debug: DB_RemoveFriend::onFinished acct:91 friend:90 result:0
+2014-05-21 14:39:52 [3832] debug: DB_RemoveFriend::onFinished acct:91 friend:117 result:0
+2014-05-21 14:39:54 [3832] debug: DB_RemoveFriend::onFinished acct:91 friend:118 result:0
+2014-05-21 14:39:57 [3832] debug: DB_RemoveFriend::onFinished acct:91 friend:120 result:0
+2014-05-21 14:40:11 [916] warn: Server TCP Socket 556 remote: 192.168.3.79:50103 peer closed, close it
+2014-05-21 14:40:11 [916] debug: Server TCP Socket 556 remote: 192.168.3.79:50103 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:40:11 [3832] Client closed----------, Server TCP Socket 556 remote: 192.168.3.79:50103
+2014-05-21 14:40:16 [712] warn: destroy Server TCP Socket 556 remote: 192.168.3.79:50103
+2014-05-21 14:40:57 [3832] Client connected-------, Server TCP Socket 568 remote: 192.168.3.88:3567
+2014-05-21 14:44:36 [12] warn: Server TCP Socket 568 remote: 192.168.3.88:3567 peer closed, close it
+2014-05-21 14:44:36 [12] debug: Server TCP Socket 568 remote: 192.168.3.88:3567 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:44:36 [3832] Client closed----------, Server TCP Socket 568 remote: 192.168.3.88:3567
+2014-05-21 14:44:38 [2712] |------------------------------------------------|
+2014-05-21 14:44:38 [2712] |                  DemoChatServer                |
+2014-05-21 14:44:38 [2712] |------------------------------------------------|
+2014-05-21 14:44:39 [2712] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140513 result:0
+2014-05-21 14:44:44 [2712] Client connected-------, Server TCP Socket 560 remote: 192.168.3.88:3582
+2014-05-21 14:44:48 [2712] debug: DB_Authenticate::onFinished acct:0 result:0
+2014-05-21 14:44:48 [2712] debug: DB_LoadFriends::onFinished acct:91 result:0
+2014-05-21 14:44:48 [2712] debug: DB_LoadGroups::onFinished acct:91 result:0
+2014-05-21 14:44:48 [2712] debug: DB_LoadGroupDetail::onFinished grp:63 result:0
+2014-05-21 14:44:48 [2712] debug: DB_LoadGroupDetail::onFinished grp:38 result:0
+2014-05-21 14:44:48 [2712] debug: DB_LoadGroupDetail::onFinished grp:56 result:0
+2014-05-21 14:45:58 [860] warn: Server TCP Socket 560 remote: 192.168.3.88:3582 peer closed, close it
+2014-05-21 14:45:58 [860] debug: Server TCP Socket 560 remote: 192.168.3.88:3582 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:45:58 [860] warn: Server TCP Socket 572 remote: 192.168.3.79:50109 peer closed, close it
+2014-05-21 14:45:58 [860] debug: Server TCP Socket 572 remote: 192.168.3.79:50109 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:45:58 [2784] warn: Server TCP Socket 624 remote: 192.168.3.79:50112 peer closed, close it
+2014-05-21 14:45:58 [2784] debug: Server TCP Socket 624 remote: 192.168.3.79:50112 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 14:45:58 [2712] Client closed----------, Server TCP Socket 560 remote: 192.168.3.88:3582
+2014-05-21 14:45:58 [2712] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:50109
+2014-05-21 14:45:58 [2712] error: login, Server TCP Socket 572 remote: 192.168.3.79:50109 already has an account acct:57 mz1
+2014-05-21 14:45:58 [2712] Client closed----------, Server TCP Socket 572 remote: 192.168.3.79:50109
+2014-05-21 14:45:58 [2712] Client connected-------, Server TCP Socket 624 remote: 192.168.3.79:50112
+2014-05-21 14:45:58 [2712] error: login, Server TCP Socket 624 remote: 192.168.3.79:50112 already has an account acct:91 ws
+2014-05-21 14:45:58 [2712] error: login, Server TCP Socket 624 remote: 192.168.3.79:50112 already has an account acct:91 ws
+2014-05-21 14:45:58 [2712] Client closed----------, Server TCP Socket 624 remote: 192.168.3.79:50112
+2014-05-21 14:45:58 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50115
+2014-05-21 14:45:58 [2712] debug: DB_LoadFriends::onFinished acct:57 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroups::onFinished acct:57 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:45 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:49 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:40 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:42 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:43 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:51 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:47 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:46 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:53 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:48 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:54 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:50 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:52 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:39 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:41 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:55 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:62 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadGroupDetail::onFinished grp:44 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadUnreadMessages::onFinished acct:91 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 14:45:58 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 14:46:03 [3128] warn: destroy Server TCP Socket 560 remote: 192.168.3.88:3582
+2014-05-21 14:46:03 [3128] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50109
+2014-05-21 14:46:03 [3128] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50112
+2014-05-21 15:49:13 [3448] warn: Server TCP Socket 628 remote: 192.168.3.79:50115 peer closed, close it
+2014-05-21 15:49:13 [3448] debug: Server TCP Socket 628 remote: 192.168.3.79:50115 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 15:49:13 [2712] Client closed----------, Server TCP Socket 628 remote: 192.168.3.79:50115
+2014-05-21 15:49:19 [3128] warn: destroy Server TCP Socket 628 remote: 192.168.3.79:50115
+2014-05-21 15:49:22 [2712] Client connected-------, Server TCP Socket 636 remote: 192.168.3.79:50159
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:49:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:42 [2844] warn: Server TCP Socket 636 remote: 192.168.3.79:50159 peer closed, close it
+2014-05-21 15:51:42 [2844] debug: Server TCP Socket 636 remote: 192.168.3.79:50159 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 15:51:42 [2712] Client closed----------, Server TCP Socket 636 remote: 192.168.3.79:50159
+2014-05-21 15:51:44 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50165
+2014-05-21 15:51:47 [3128] warn: destroy Server TCP Socket 636 remote: 192.168.3.79:50159
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:51:49 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 15:56:32 [2712] Client connected-------, Server TCP Socket 636 remote: 192.168.3.88:3825
+2014-05-21 15:56:56 [2712] debug: DB_SaveGroupPrivate::onFinished acct:63 result:0
+2014-05-21 16:05:30 [2712] Client connected-------, Server TCP Socket 656 remote: 192.168.3.30:50095
+2014-05-21 16:06:18 [2916] warn: Server TCP Socket 656 remote: 192.168.3.30:50095 peer closed, close it
+2014-05-21 16:06:18 [2916] debug: Server TCP Socket 656 remote: 192.168.3.30:50095 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:06:18 [2712] Client closed----------, Server TCP Socket 656 remote: 192.168.3.30:50095
+2014-05-21 16:06:23 [3128] warn: destroy Server TCP Socket 656 remote: 192.168.3.30:50095
+2014-05-21 16:06:55 [2712] Client connected-------, Server TCP Socket 660 remote: 192.168.3.30:50099
+2014-05-21 16:07:24 [2844] warn: Server TCP Socket 660 remote: 192.168.3.30:50099 peer closed, close it
+2014-05-21 16:07:24 [2844] debug: Server TCP Socket 660 remote: 192.168.3.30:50099 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:07:24 [2712] Client closed----------, Server TCP Socket 660 remote: 192.168.3.30:50099
+2014-05-21 16:07:29 [3128] warn: destroy Server TCP Socket 660 remote: 192.168.3.30:50099
+2014-05-21 16:12:49 [2916] warn: Server TCP Socket 628 remote: 192.168.3.79:50165 peer closed, close it
+2014-05-21 16:12:49 [2916] debug: Server TCP Socket 628 remote: 192.168.3.79:50165 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:12:49 [2712] Client closed----------, Server TCP Socket 628 remote: 192.168.3.79:50165
+2014-05-21 16:12:54 [3128] warn: destroy Server TCP Socket 628 remote: 192.168.3.79:50165
+2014-05-21 16:12:54 [2712] Client connected-------, Server TCP Socket 656 remote: 192.168.3.79:50344
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:12:59 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:38 [3448] warn: Server TCP Socket 656 remote: 192.168.3.79:50344 peer closed, close it
+2014-05-21 16:15:38 [3448] debug: Server TCP Socket 656 remote: 192.168.3.79:50344 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:15:38 [2712] Client closed----------, Server TCP Socket 656 remote: 192.168.3.79:50344
+2014-05-21 16:15:39 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50348
+2014-05-21 16:15:43 [3128] warn: destroy Server TCP Socket 656 remote: 192.168.3.79:50344
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:15:45 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:47 [860] warn: Server TCP Socket 628 remote: 192.168.3.79:50348 peer closed, close it
+2014-05-21 16:24:47 [860] debug: Server TCP Socket 628 remote: 192.168.3.79:50348 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:24:47 [2712] Client closed----------, Server TCP Socket 628 remote: 192.168.3.79:50348
+2014-05-21 16:24:50 [2712] Client connected-------, Server TCP Socket 656 remote: 192.168.3.79:50359
+2014-05-21 16:24:52 [3128] warn: destroy Server TCP Socket 628 remote: 192.168.3.79:50348
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:24:55 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:01 [2784] warn: Server TCP Socket 656 remote: 192.168.3.79:50359 peer closed, close it
+2014-05-21 16:26:01 [2784] debug: Server TCP Socket 656 remote: 192.168.3.79:50359 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:26:01 [2712] Client closed----------, Server TCP Socket 656 remote: 192.168.3.79:50359
+2014-05-21 16:26:03 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50362
+2014-05-21 16:26:06 [3128] warn: destroy Server TCP Socket 656 remote: 192.168.3.79:50359
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:26:08 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:15 [860] warn: Server TCP Socket 628 remote: 192.168.3.79:50362 peer closed, close it
+2014-05-21 16:49:15 [860] debug: Server TCP Socket 628 remote: 192.168.3.79:50362 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:49:15 [2712] Client closed----------, Server TCP Socket 628 remote: 192.168.3.79:50362
+2014-05-21 16:49:19 [2712] Client connected-------, Server TCP Socket 656 remote: 192.168.3.79:50405
+2014-05-21 16:49:20 [3128] warn: destroy Server TCP Socket 628 remote: 192.168.3.79:50362
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:49:23 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:04 [2844] warn: Server TCP Socket 656 remote: 192.168.3.79:50405 peer closed, close it
+2014-05-21 16:50:04 [2844] debug: Server TCP Socket 656 remote: 192.168.3.79:50405 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:50:04 [2712] Client closed----------, Server TCP Socket 656 remote: 192.168.3.79:50405
+2014-05-21 16:50:06 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50409
+2014-05-21 16:50:09 [3128] warn: destroy Server TCP Socket 656 remote: 192.168.3.79:50405
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:50:12 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:52:56 [3448] warn: Server TCP Socket 628 remote: 192.168.3.79:50409 peer closed, close it
+2014-05-21 16:52:56 [3448] debug: Server TCP Socket 628 remote: 192.168.3.79:50409 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:52:56 [2712] Client closed----------, Server TCP Socket 628 remote: 192.168.3.79:50409
+2014-05-21 16:52:58 [2712] Client connected-------, Server TCP Socket 656 remote: 192.168.3.79:50414
+2014-05-21 16:53:01 [3128] warn: destroy Server TCP Socket 628 remote: 192.168.3.79:50409
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:53:03 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:54:18 [2784] warn: Server TCP Socket 656 remote: 192.168.3.79:50414 peer closed, close it
+2014-05-21 16:54:18 [2784] debug: Server TCP Socket 656 remote: 192.168.3.79:50414 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:54:18 [2712] Client closed----------, Server TCP Socket 656 remote: 192.168.3.79:50414
+2014-05-21 16:54:23 [3128] warn: destroy Server TCP Socket 656 remote: 192.168.3.79:50414
+2014-05-21 16:54:25 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50415
+2014-05-21 16:54:25 [2712] debug: DB_LoadFriends::onFinished acct:8 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroups::onFinished acct:8 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:3 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:8 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:25 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:11 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:16 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:13 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:57 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:10 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:23 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:58 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:30 result:0
+2014-05-21 16:54:25 [2712] debug: DB_LoadGroupDetail::onFinished grp:59 result:0
+2014-05-21 16:54:26 [1372] error: open './Data/avatar/9/20140521-0010', 系统找不到指定的路径。
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 16:54:26 [3352] error: open './Data/private/20140519/person/8/3', 系统找不到指定的路径。
+2014-05-21 16:54:26 [1372] error: open './Data/private/20140519/person/8/4', 系统找不到指定的路径。
+2014-05-21 16:54:26 [3352] error: open './Data/avatar/122/20140514-0020', 系统找不到指定的路径。
+2014-05-21 16:54:26 [1372] error: open './Data/private/20140519/person/8/12', 系统找不到指定的路径。
+2014-05-21 16:54:26 [1372] error: open './Data/private/20140520/person/8/0', 系统找不到指定的路径。
+2014-05-21 16:54:26 [3352] error: open './Data/private/20140521/person/8/11', 系统找不到指定的路径。
+2014-05-21 16:57:08 [3352] error: open './Data/avatar/90/20140504-0036', 系统找不到指定的路径。
+2014-05-21 16:57:25 [2844] warn: Server TCP Socket 628 remote: 192.168.3.79:50415 peer closed, close it
+2014-05-21 16:57:25 [2844] debug: Server TCP Socket 628 remote: 192.168.3.79:50415 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:57:25 [2712] Client closed----------, Server TCP Socket 628 remote: 192.168.3.79:50415
+2014-05-21 16:57:27 [2712] Client connected-------, Server TCP Socket 656 remote: 192.168.3.79:50419
+2014-05-21 16:57:30 [3128] warn: destroy Server TCP Socket 628 remote: 192.168.3.79:50415
+2014-05-21 16:57:50 [2844] warn: Server TCP Socket 656 remote: 192.168.3.79:50419 peer closed, close it
+2014-05-21 16:57:50 [2844] debug: Server TCP Socket 656 remote: 192.168.3.79:50419 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:57:50 [2712] Client closed----------, Server TCP Socket 656 remote: 192.168.3.79:50419
+2014-05-21 16:57:53 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50423
+2014-05-21 16:57:55 [3128] warn: destroy Server TCP Socket 656 remote: 192.168.3.79:50419
+2014-05-21 16:59:08 [3448] warn: Server TCP Socket 628 remote: 192.168.3.79:50423 peer closed, close it
+2014-05-21 16:59:08 [3448] debug: Server TCP Socket 628 remote: 192.168.3.79:50423 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:59:08 [2712] Client closed----------, Server TCP Socket 628 remote: 192.168.3.79:50423
+2014-05-21 16:59:10 [2712] Client connected-------, Server TCP Socket 656 remote: 192.168.3.79:50426
+2014-05-21 16:59:13 [3128] warn: destroy Server TCP Socket 628 remote: 192.168.3.79:50423
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:14 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 16:59:19 [860] warn: Server TCP Socket 656 remote: 192.168.3.79:50426 peer closed, close it
+2014-05-21 16:59:19 [860] debug: Server TCP Socket 656 remote: 192.168.3.79:50426 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 16:59:19 [2712] Client closed----------, Server TCP Socket 656 remote: 192.168.3.79:50426
+2014-05-21 16:59:21 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50429
+2014-05-21 16:59:24 [3128] warn: destroy Server TCP Socket 656 remote: 192.168.3.79:50426
+2014-05-21 17:01:21 [3448] warn: Server TCP Socket 628 remote: 192.168.3.79:50429 peer closed, close it
+2014-05-21 17:01:21 [3448] debug: Server TCP Socket 628 remote: 192.168.3.79:50429 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 17:01:21 [2712] Client closed----------, Server TCP Socket 628 remote: 192.168.3.79:50429
+2014-05-21 17:01:26 [3128] warn: destroy Server TCP Socket 628 remote: 192.168.3.79:50429
+2014-05-21 17:01:29 [2712] Client connected-------, Server TCP Socket 656 remote: 192.168.3.79:50435
+2014-05-21 17:01:33 [2712] warn: login 'ws' already online
+2014-05-21 17:01:33 [2844] debug: Server TCP Socket 656 remote: 192.168.3.79:50435 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:01:33 [2712] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50435
+2014-05-21 17:01:34 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50436
+2014-05-21 17:01:34 [2712] warn: login 'ws' already online
+2014-05-21 17:01:34 [3448] debug: Server TCP Socket 628 remote: 192.168.3.79:50436 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:01:34 [2712] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50436
+2014-05-21 17:01:36 [2712] Client connected-------, Server TCP Socket 656 remote: 192.168.3.79:50437
+2014-05-21 17:01:36 [2712] warn: login 'ws' already online
+2014-05-21 17:01:36 [3448] debug: Server TCP Socket 656 remote: 192.168.3.79:50437 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:01:36 [2712] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50437
+2014-05-21 17:01:37 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50438
+2014-05-21 17:01:37 [2712] warn: login 'ws' already online
+2014-05-21 17:01:37 [860] debug: Server TCP Socket 628 remote: 192.168.3.79:50438 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:01:37 [2712] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50438
+2014-05-21 17:01:37 [2712] Client connected-------, Server TCP Socket 656 remote: 192.168.3.79:50439
+2014-05-21 17:01:38 [2712] warn: login 'ws' already online
+2014-05-21 17:01:38 [3448] debug: Server TCP Socket 656 remote: 192.168.3.79:50439 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:01:38 [2712] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50439
+2014-05-21 17:01:38 [3128] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50435
+2014-05-21 17:01:39 [3128] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50436
+2014-05-21 17:01:41 [3128] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50437
+2014-05-21 17:01:42 [3128] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50438
+2014-05-21 17:01:43 [3448] debug: Server TCP Socket 636 remote: 192.168.3.88:3825 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:01:43 [3128] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50439
+2014-05-21 17:01:43 [2712] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:3825
+2014-05-21 17:01:48 [3128] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:3825
+2014-05-21 17:01:49 [2712] Client connected-------, Server TCP Socket 628 remote: 192.168.3.79:50442
+2014-05-21 17:01:54 [2712] debug: DB_LoadUnreadMessages::onFinished acct:91 result:0
+2014-05-21 17:01:54 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:01:54 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:01:54 [2712] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:02:00 [1372] error: open './Data/avatar/90/20140504-0036', 系统找不到指定的路径。
+2014-05-21 17:02:17 [2844] warn: Server TCP Socket 628 remote: 192.168.3.79:50442 peer closed, close it
+2014-05-21 17:02:17 [2844] debug: Server TCP Socket 628 remote: 192.168.3.79:50442 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 17:02:17 [2712] Client closed----------, Server TCP Socket 628 remote: 192.168.3.79:50442
+2014-05-21 17:02:22 [3128] warn: destroy Server TCP Socket 628 remote: 192.168.3.79:50442
+2014-05-21 17:02:35 [2712] Client connected-------, Server TCP Socket 636 remote: 192.168.3.79:50446
+2014-05-21 17:04:51 [2684] |------------------------------------------------|
+2014-05-21 17:04:51 [2684] |                  DemoChatServer                |
+2014-05-21 17:04:51 [2684] |------------------------------------------------|
+2014-05-21 17:04:51 [2684] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140513 result:0
+2014-05-21 17:05:06 [2684] Client connected-------, Server TCP Socket 560 remote: 192.168.3.79:50449
+2014-05-21 17:05:20 [2684] debug: DB_Authenticate::onFinished acct:0 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroups::onFinished acct:8 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadFriends::onFinished acct:8 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:3 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:16 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:45 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:58 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:10 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:11 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:30 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:57 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:23 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:25 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:47 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:59 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:49 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:8 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:13 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:53 result:0
+2014-05-21 17:05:20 [2684] debug: DB_LoadGroupDetail::onFinished grp:63 result:0
+2014-05-21 17:05:21 [440] error: open './Data/avatar/8/20140515-0001', 系统找不到指定的路径。
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 17:05:21 [2444] error: open './Data/avatar/9/20140521-0010', 系统找不到指定的路径。
+2014-05-21 17:05:21 [440] error: open './Data/avatar/122/20140514-0020', 系统找不到指定的路径。
+2014-05-21 17:05:34 [3740] warn: Server TCP Socket 560 remote: 192.168.3.79:50449 peer closed, close it
+2014-05-21 17:05:34 [3740] debug: Server TCP Socket 560 remote: 192.168.3.79:50449 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 17:05:34 [2684] Client closed----------, Server TCP Socket 560 remote: 192.168.3.79:50449
+2014-05-21 17:05:36 [2684] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:50453
+2014-05-21 17:05:39 [2368] warn: destroy Server TCP Socket 560 remote: 192.168.3.79:50449
+2014-05-21 17:06:02 [2684] error: login, Server TCP Socket 572 remote: 192.168.3.79:50453 already has an account acct:8 hello1
+2014-05-21 17:06:02 [3740] debug: Server TCP Socket 572 remote: 192.168.3.79:50453 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:06:02 [440] error: open './Data/avatar/8/20140515-0001', 系统找不到指定的路径。
+2014-05-21 17:06:02 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50453
+2014-05-21 17:06:02 [2684] debug: DB_LoadUnreadMessages::onFinished acct:8 result:0
+2014-05-21 17:06:07 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50453
+2014-05-21 17:06:21 [2684] Client connected-------, Server TCP Socket 560 remote: 192.168.3.79:50456
+2014-05-21 17:06:24 [2684] debug: DB_LoadFriends::onFinished acct:91 result:0
+2014-05-21 17:06:24 [2684] debug: DB_LoadGroups::onFinished acct:91 result:0
+2014-05-21 17:06:24 [2684] debug: DB_LoadGroupDetail::onFinished grp:38 result:0
+2014-05-21 17:06:24 [2684] debug: DB_LoadGroupDetail::onFinished grp:56 result:0
+2014-05-21 17:06:24 [440] error: open './Data/avatar/91/20140504-0036', 系统找不到指定的文件。
+2014-05-21 17:06:24 [2684] debug: DB_LoadUnreadMessages::onFinished acct:91 result:0
+2014-05-21 17:06:24 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:06:24 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:06:24 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:06:30 [440] error: open './Data/avatar/23/20140512-0014', 系统找不到指定的路径。
+2014-05-21 17:06:30 [440] error: open './Data/avatar/91/20140504-0036', 系统找不到指定的文件。
+2014-05-21 17:06:46 [440] error: open './Data/avatar/90/20140504-0036', 系统找不到指定的路径。
+2014-05-21 17:06:46 [440] error: open './Data/avatar/91/20140504-0036', 系统找不到指定的文件。
+2014-05-21 17:07:32 [2684] debug: DB_SavePersonPrivate::onFinished acct:57 result:0
+2014-05-21 17:08:07 [3740] warn: Server TCP Socket 560 remote: 192.168.3.79:50456 peer closed, close it
+2014-05-21 17:08:07 [3740] debug: Server TCP Socket 560 remote: 192.168.3.79:50456 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 17:08:08 [2684] Client closed----------, Server TCP Socket 560 remote: 192.168.3.79:50456
+2014-05-21 17:08:09 [2684] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:50460
+2014-05-21 17:08:13 [2368] warn: destroy Server TCP Socket 560 remote: 192.168.3.79:50456
+2014-05-21 17:08:14 [440] error: open './Data/avatar/91/20140504-0036', 系统找不到指定的文件。
+2014-05-21 17:08:14 [2684] debug: DB_LoadUnreadMessages::onFinished acct:91 result:0
+2014-05-21 17:08:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:08:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:08:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:08:20 [440] error: open './Data/avatar/90/20140504-0036', 系统找不到指定的路径。
+2014-05-21 17:08:20 [440] error: open './Data/avatar/91/20140504-0036', 系统找不到指定的文件。
+2014-05-21 17:08:34 [440] error: open './Data/avatar/23/20140512-0014', 系统找不到指定的路径。
+2014-05-21 17:08:34 [2444] error: open './Data/avatar/91/20140504-0036', 系统找不到指定的文件。
+2014-05-21 17:09:08 [2576] warn: Server TCP Socket 572 remote: 192.168.3.79:50460 peer closed, close it
+2014-05-21 17:09:08 [2576] debug: Server TCP Socket 572 remote: 192.168.3.79:50460 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 17:09:08 [2684] Client closed----------, Server TCP Socket 572 remote: 192.168.3.79:50460
+2014-05-21 17:09:10 [2684] Client connected-------, Server TCP Socket 560 remote: 192.168.3.79:50463
+2014-05-21 17:09:13 [2368] warn: destroy Server TCP Socket 572 remote: 192.168.3.79:50460
+2014-05-21 17:09:14 [2684] debug: DB_LoadFriends::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroups::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:40 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:42 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:43 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:39 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:41 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:44 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:46 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:48 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:50 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:54 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:52 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:51 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:55 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadGroupDetail::onFinished grp:62 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:14 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:09:19 [1844] warn: Server TCP Socket 560 remote: 192.168.3.79:50463 peer closed, close it
+2014-05-21 17:09:19 [1844] debug: Server TCP Socket 560 remote: 192.168.3.79:50463 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 17:09:19 [2684] Client closed----------, Server TCP Socket 560 remote: 192.168.3.79:50463
+2014-05-21 17:09:21 [2684] Client connected-------, Server TCP Socket 572 remote: 192.168.3.79:50466
+2014-05-21 17:09:24 [2368] warn: destroy Server TCP Socket 560 remote: 192.168.3.79:50463
+2014-05-21 17:09:25 [2684] debug: DB_LoadUnreadMessages::onFinished acct:91 result:0
+2014-05-21 17:09:25 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:09:25 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:09:25 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:91 result:0
+2014-05-21 17:09:38 [440] error: open './Data/avatar/90/20140504-0036', 系统找不到指定的路径。
+2014-05-21 17:10:32 [2684] debug: DB_SetAccountAvatar::onFinished acct:acct:91 ws result:19
+2014-05-21 17:12:51 [2684] debug: DB_SavePersonPrivate::onFinished acct:57 result:0
+2014-05-21 17:28:12 [2684] Client connected-------, Server TCP Socket 560 remote: 192.168.3.88:4161
+2014-05-21 17:28:16 [2684] warn: login 'ws' already online
+2014-05-21 17:28:16 [3280] debug: Server TCP Socket 560 remote: 192.168.3.88:4161 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:28:16 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:4161
+2014-05-21 17:28:21 [3280] debug: Server TCP Socket 572 remote: 192.168.3.79:50466 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:28:21 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:4161
+2014-05-21 17:28:21 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50466
+2014-05-21 17:28:26 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50466
+2014-05-21 17:28:32 [2684] Client connected-------, Server TCP Socket 660 remote: 192.168.3.88:4162
+2014-05-21 17:28:45 [2468] warn: Server TCP Socket 660 remote: 192.168.3.88:4162 peer closed, close it
+2014-05-21 17:28:45 [2468] debug: Server TCP Socket 660 remote: 192.168.3.88:4162 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 17:28:45 [2684] Client closed----------, Server TCP Socket 660 remote: 192.168.3.88:4162
+2014-05-21 17:28:48 [2684] Client connected-------, Server TCP Socket 560 remote: 192.168.3.88:4163
+2014-05-21 17:28:50 [2368] warn: destroy Server TCP Socket 660 remote: 192.168.3.88:4162
+2014-05-21 17:29:10 [2468] warn: Server TCP Socket 560 remote: 192.168.3.88:4163 peer closed, close it
+2014-05-21 17:29:10 [2468] debug: Server TCP Socket 560 remote: 192.168.3.88:4163 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 17:29:10 [2684] Client closed----------, Server TCP Socket 560 remote: 192.168.3.88:4163
+2014-05-21 17:29:15 [2368] warn: destroy Server TCP Socket 560 remote: 192.168.3.88:4163
+2014-05-21 17:33:40 [2684] Client connected-------, Server TCP Socket 660 remote: 192.168.3.79:50480
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:46 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:47 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:47 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:47 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:47 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:33:47 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:57 result:0
+2014-05-21 17:58:24 [2684] Client connected-------, Server TCP Socket 560 remote: 192.168.3.88:4202
+2014-05-21 17:58:57 [2684] debug: DB_SaveGroupPrivate::onFinished acct:63 result:0
+2014-05-21 17:59:38 [2468] warn: Server TCP Socket 660 remote: 192.168.3.79:50480 peer closed, close it
+2014-05-21 17:59:38 [2468] debug: Server TCP Socket 660 remote: 192.168.3.79:50480 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 17:59:38 [2684] Client closed----------, Server TCP Socket 660 remote: 192.168.3.79:50480
+2014-05-21 17:59:43 [2368] warn: destroy Server TCP Socket 660 remote: 192.168.3.79:50480
+2014-05-21 17:59:45 [2684] Client connected-------, Server TCP Socket 664 remote: 192.168.3.79:50531
+2014-05-21 17:59:45 [2684] warn: login 'hello1' already online
+2014-05-21 17:59:45 [1844] debug: Server TCP Socket 664 remote: 192.168.3.79:50531 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:59:46 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50531
+2014-05-21 17:59:48 [2684] Client connected-------, Server TCP Socket 660 remote: 192.168.3.79:50532
+2014-05-21 17:59:49 [2684] warn: login 'hello1' already online
+2014-05-21 17:59:49 [3740] debug: Server TCP Socket 660 remote: 192.168.3.79:50532 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:59:49 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50532
+2014-05-21 17:59:51 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50531
+2014-05-21 17:59:53 [2684] Client connected-------, Server TCP Socket 664 remote: 192.168.3.79:50533
+2014-05-21 17:59:53 [2684] warn: login 'hello1' already online
+2014-05-21 17:59:53 [1844] debug: Server TCP Socket 664 remote: 192.168.3.79:50533 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:59:53 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50533
+2014-05-21 17:59:54 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50532
+2014-05-21 17:59:54 [2684] Client connected-------, Server TCP Socket 660 remote: 192.168.3.79:50534
+2014-05-21 17:59:54 [2684] warn: login 'hello1' already online
+2014-05-21 17:59:54 [3280] debug: Server TCP Socket 660 remote: 192.168.3.79:50534 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:59:54 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50534
+2014-05-21 17:59:54 [2684] Client connected-------, Server TCP Socket 664 remote: 192.168.3.79:50535
+2014-05-21 17:59:54 [2684] warn: login 'hello1' already online
+2014-05-21 17:59:54 [1844] debug: Server TCP Socket 664 remote: 192.168.3.79:50535 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:59:54 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50535
+2014-05-21 17:59:55 [2684] Client connected-------, Server TCP Socket 660 remote: 192.168.3.79:50536
+2014-05-21 17:59:55 [2684] warn: login 'hello1' already online
+2014-05-21 17:59:55 [1844] debug: Server TCP Socket 660 remote: 192.168.3.79:50536 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:59:55 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50536
+2014-05-21 17:59:56 [2684] Client connected-------, Server TCP Socket 664 remote: 192.168.3.79:50537
+2014-05-21 17:59:56 [2684] warn: login 'hello1' already online
+2014-05-21 17:59:56 [2468] debug: Server TCP Socket 664 remote: 192.168.3.79:50537 socket error, close it, 指定的网络名不再可用。
+2014-05-21 17:59:56 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.79:50537
+2014-05-21 17:59:58 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50533
+2014-05-21 17:59:59 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50534
+2014-05-21 17:59:59 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50535
+2014-05-21 18:00:00 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50536
+2014-05-21 18:00:01 [2468] debug: Server TCP Socket 560 remote: 192.168.3.88:4202 socket error, close it, 指定的网络名不再可用。
+2014-05-21 18:00:01 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.79:50537
+2014-05-21 18:00:01 [2684] Client closed----------, Server TCP Socket 4294967295 remote: 192.168.3.88:4202
+2014-05-21 18:00:04 [2684] Client connected-------, Server TCP Socket 660 remote: 192.168.3.79:50539
+2014-05-21 18:00:04 [440] error: open './Data/avatar/8/20140515-0001', 系统找不到指定的路径。
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:04 [2684] debug: DB_LoadUnreadGroupMessages::onFinished acct:8 result:0
+2014-05-21 18:00:05 [440] error: open './Data/avatar/9/20140521-0010', 系统找不到指定的路径。
+2014-05-21 18:00:05 [440] error: open './Data/avatar/122/20140514-0020', 系统找不到指定的路径。
+2014-05-21 18:00:06 [2368] warn: destroy Server TCP Socket 4294967295 remote: 192.168.3.88:4202
+2014-05-21 18:08:49 [3740] warn: Server TCP Socket 660 remote: 192.168.3.79:50539 peer closed, close it
+2014-05-21 18:08:49 [3740] debug: Server TCP Socket 660 remote: 192.168.3.79:50539 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-21 18:08:49 [2684] Client closed----------, Server TCP Socket 660 remote: 192.168.3.79:50539
+2014-05-21 18:08:54 [2368] warn: destroy Server TCP Socket 660 remote: 192.168.3.79:50539

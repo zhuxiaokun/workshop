@@ -1,0 +1,50 @@
+2014-05-12 03:00:00 [1516] debug: DB_DeleteMessageByDate::onFinished yyyymmdd:20140504 result:0
+2014-05-12 03:00:00 [4976] warn: recursive rmDir './Data/private\20140504'
+2014-05-12 10:15:25 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.79:49189
+2014-05-12 10:15:32 [4976] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-12 10:40:21 [328] warn: Server TCP Socket 580 remote: 192.168.3.79:49189 peer closed, close it
+2014-05-12 10:40:21 [328] debug: Server TCP Socket 580 remote: 192.168.3.79:49189 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-12 10:40:21 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.79:49189
+2014-05-12 10:40:59 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.79:49189
+2014-05-12 10:57:04 [1516] Client connected-------, Server TCP Socket 668 remote: 192.168.3.79:49643
+2014-05-12 10:57:10 [3960] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-12 10:57:25 [3280] warn: Server TCP Socket 668 remote: 192.168.3.79:49643 peer closed, close it
+2014-05-12 10:57:25 [3280] debug: Server TCP Socket 668 remote: 192.168.3.79:49643 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-12 10:57:25 [1516] Client closed----------, Server TCP Socket 668 remote: 192.168.3.79:49643
+2014-05-12 10:57:28 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.79:49646
+2014-05-12 10:57:30 [3796] warn: destroy Server TCP Socket 668 remote: 192.168.3.79:49643
+2014-05-12 10:57:33 [4976] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-12 10:58:21 [3280] warn: Server TCP Socket 580 remote: 192.168.3.79:49646 peer closed, close it
+2014-05-12 10:58:21 [3280] debug: Server TCP Socket 580 remote: 192.168.3.79:49646 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-12 10:58:21 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.79:49646
+2014-05-12 10:58:24 [1516] Client connected-------, Server TCP Socket 668 remote: 192.168.3.79:49649
+2014-05-12 10:58:26 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.79:49646
+2014-05-12 10:58:41 [4976] error: open './Data/avatar/13/20140509-0000', 系统找不到指定的路径。
+2014-05-12 14:08:31 [4684] warn: Server TCP Socket 668 remote: 192.168.3.79:49649 peer closed, close it
+2014-05-12 14:08:31 [4684] debug: Server TCP Socket 668 remote: 192.168.3.79:49649 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-12 14:08:31 [1516] Client closed----------, Server TCP Socket 668 remote: 192.168.3.79:49649
+2014-05-12 14:08:36 [3796] warn: destroy Server TCP Socket 668 remote: 192.168.3.79:49649
+2014-05-12 15:57:30 [1516] Client connected-------, Server TCP Socket 580 remote: 192.168.3.4:49228
+2014-05-12 15:58:38 [1516] debug: DB_LoadFriends::onFinished acct:9 result:0
+2014-05-12 15:58:38 [1516] debug: DB_LoadGroups::onFinished acct:9 result:0
+2014-05-12 15:58:38 [1516] debug: DB_LoadGroupDetail::onFinished grp:6 result:0
+2014-05-12 15:58:38 [1516] debug: DB_LoadGroupDetail::onFinished grp:58 result:0
+2014-05-12 15:58:38 [1516] debug: DB_LoadGroupDetail::onFinished grp:3 result:0
+2014-05-12 15:58:38 [1516] debug: DB_LoadGroupDetail::onFinished grp:13 result:0
+2014-05-12 15:58:38 [1516] debug: DB_LoadGroupDetail::onFinished grp:23 result:0
+2014-05-12 15:58:38 [1516] debug: DB_LoadGroupDetail::onFinished grp:8 result:0
+2014-05-12 15:58:38 [1516] debug: DB_LoadGroupDetail::onFinished grp:11 result:0
+2014-05-12 15:58:38 [1516] debug: DB_LoadGroupDetail::onFinished grp:25 result:0
+2014-05-12 15:58:38 [1516] debug: DB_LoadGroupDetail::onFinished grp:30 result:0
+2014-05-12 15:58:38 [4976] error: open './Data/avatar/8/20140509-0000', 系统找不到指定的路径。
+2014-05-12 15:58:38 [3960] error: open './Data/avatar/8/20140509-0000', 系统找不到指定的路径。
+2014-05-12 15:59:10 [328] warn: Server TCP Socket 580 remote: 192.168.3.4:49228 peer closed, close it
+2014-05-12 15:59:10 [328] debug: Server TCP Socket 580 remote: 192.168.3.4:49228 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-12 15:59:10 [1516] Client closed----------, Server TCP Socket 580 remote: 192.168.3.4:49228
+2014-05-12 15:59:15 [3796] warn: destroy Server TCP Socket 580 remote: 192.168.3.4:49228
+2014-05-12 15:59:20 [1516] Client connected-------, Server TCP Socket 668 remote: 192.168.3.4:49240
+2014-05-12 15:59:38 [3960] error: open './Data/avatar/8/20140509-0000', 系统找不到指定的路径。
+2014-05-12 16:12:53 [4768] warn: Server TCP Socket 668 remote: 192.168.3.4:49240 peer closed, close it
+2014-05-12 16:12:53 [4768] debug: Server TCP Socket 668 remote: 192.168.3.4:49240 socket error, close it, 远程主机强迫关闭了一个现有的连接。
+2014-05-12 16:12:53 [1516] Client closed----------, Server TCP Socket 668 remote: 192.168.3.4:49240
+2014-05-12 16:12:58 [3796] warn: destroy Server TCP Socket 668 remote: 192.168.3.4:49240
