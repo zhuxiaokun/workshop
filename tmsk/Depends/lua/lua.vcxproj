@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_luaJIT|Win32">
+      <Configuration>Debug_luaJIT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_luaJIT|x64">
+      <Configuration>Debug_luaJIT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Dll|Win32">
+      <Configuration>Release_Dll</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Dll|x64">
+      <Configuration>Release_Dll</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_o|Win32">
+      <Configuration>Release_o</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_o|x64">
+      <Configuration>Release_o</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{42A40877-90C4-4223-9EDA-4809F48A4D41}</ProjectGuid>
+    <RootNamespace>lua</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_luaJIT|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_luaJIT|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_luaJIT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_luaJIT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>../Temp/$(ProjectName)/$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\Lib64\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>../Temp/$(ProjectName)/$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\Lib64\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|Win32'">
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>../Temp/$(ProjectName)/$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|x64'">
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_luaJIT|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_luaJIT|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..;..\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)lua.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Depends\Lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir ..\inc\lua
+mkdir ..\inc\lua\Lua
+mkdir ..\inc\lua\addon
+
+copy /Y .\*.h ..\inc\lua
+copy lua\luaconf.h ..\inc\lua\Lua\luaconf.h
+copy lua\lualib.h ..\inc\lua\Lua\lualib.h
+copy lua\lua.h ..\inc\lua\Lua\lua.h
+copy lua\lauxlib.h ..\inc\lua\Lua\lauxlib.h
+copy lua\lundump.h ..\inc\lua\Lua\lundump.h
+copy lua\lmem.h ..\inc\lua\Lua\lmem.h
+copy lua\lstate.h ..\inc\lua\Lua\lstate.h
+copy lua\ltm.h ..\inc\lua\Lua\ltm.h
+copy lua\llimits.h ..\inc\lua\Lua\llimits.h
+copy lua\lzio.h ..\inc\lua\Lua\lzio.h
+copy lua\lobject.h ..\inc\lua\Lua\lobject.h
+copy addon\ThirdpartyLib.h ..\inc\lua\addon\ThirdpartyLib.h
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(AURORALIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WINDOWS;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)lua.lib</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir ..\inc\lua
+mkdir ..\inc\lua\Lua
+
+copy /Y .\*.h ..\inc\lua
+copy lua\luaconf.h ..\inc\lua\Lua\luaconf.h
+copy lua\lualib.h ..\inc\lua\Lua\lualib.h
+copy lua\lua.h ..\inc\lua\Lua\lua.h
+copy lua\lauxlib.h ..\inc\lua\Lua\lauxlib.h
+copy lua\lundump.h ..\inc\lua\Lua\lundump.h
+copy lua\lmem.h ..\inc\lua\Lua\lmem.h
+copy lua\lstate.h ..\inc\lua\Lua\lstate.h
+copy lua\ltm.h ..\inc\lua\Lua\ltm.h
+copy lua\llimits.h ..\inc\lua\Lua\llimits.h
+copy lua\lzio.h ..\inc\lua\Lua\lzio.h
+copy lua\lobject.h ..\inc\lua\Lua\lobject.h
+copy addon\ThirdpartyLib.h ..\inc\lua\addon\ThirdpartyLib.h
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(AURORALIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;LUA_BUILD_AS_DLL;LUA_CORE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>System.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(AURORALIB_DIR)\Lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <BaseAddress>0x30000000</BaseAddress>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir ..\inc\lua
+mkdir ..\inc\lua\Lua
+
+copy KLuaWrap.h ..\inc\lua\KLuaWrap.h
+copy CppTable.h ..\inc\lua
+copy luacompiler.h ..\inc\lua\luacompiler.h
+copy lua\luaconf.h ..\inc\lua\Lua\luaconf.h
+copy lua\lualib.h ..\inc\lua\Lua\lualib.h
+copy lua\lua.h ..\inc\lua\Lua\lua.h
+copy lua\lauxlib.h ..\inc\lua\Lua\lauxlib.h
+copy lua\lundump.h ..\inc\lua\Lua\lundump.h
+copy lua\lmem.h ..\inc\lua\Lua\lmem.h
+copy lua\lstate.h ..\inc\lua\Lua\lstate.h
+copy lua\ltm.h ..\inc\lua\Lua\ltm.h
+copy lua\llimits.h ..\inc\lua\Lua\llimits.h
+copy lua\lzio.h ..\inc\lua\Lua\lzio.h
+copy lua\lobject.h ..\inc\lua\Lua\lobject.h
+copy addon\ThirdpartyLib.h ..\inc\lua\addon\ThirdpartyLib.h
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(AURORALIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;LUA_BUILD_AS_DLL;LUA_CORE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>System.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(AURORALIB_DIR)\Lib64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir ..\inc\lua
+mkdir ..\inc\lua\Lua
+
+copy KLuaWrap.h ..\inc\lua\KLuaWrap.h
+copy CppTable.h ..\inc\lua
+copy luacompiler.h ..\inc\lua\luacompiler.h
+copy lua\luaconf.h ..\inc\lua\Lua\luaconf.h
+copy lua\lualib.h ..\inc\lua\Lua\lualib.h
+copy lua\lua.h ..\inc\lua\Lua\lua.h
+copy lua\lauxlib.h ..\inc\lua\Lua\lauxlib.h
+copy lua\lundump.h ..\inc\lua\Lua\lundump.h
+copy lua\lmem.h ..\inc\lua\Lua\lmem.h
+copy lua\lstate.h ..\inc\lua\Lua\lstate.h
+copy lua\ltm.h ..\inc\lua\Lua\ltm.h
+copy lua\llimits.h ..\inc\lua\Lua\llimits.h
+copy lua\lzio.h ..\inc\lua\Lua\lzio.h
+copy lua\lobject.h ..\inc\lua\Lua\lobject.h
+copy addon\ThirdpartyLib.h ..\inc\lua\addon\ThirdpartyLib.h
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(AURORALIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;LUA_BUILD_AS_DLL;LUA_CORE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>System.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(AURORALIB_DIR)\Lib\Release_Dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir ..\inc\lua
+mkdir ..\inc\lua\Lua
+
+copy KLuaWrap.h ..\inc\lua\KLuaWrap.h
+copy CppTable.h ..\inc\lua
+copy luacompiler.h ..\inc\lua\luacompiler.h
+copy lua\luaconf.h ..\inc\lua\Lua\luaconf.h
+copy lua\lualib.h ..\inc\lua\Lua\lualib.h
+copy lua\lua.h ..\inc\lua\Lua\lua.h
+copy lua\lauxlib.h ..\inc\lua\Lua\lauxlib.h
+copy lua\lundump.h ..\inc\lua\Lua\lundump.h
+copy lua\lmem.h ..\inc\lua\Lua\lmem.h
+copy lua\lstate.h ..\inc\lua\Lua\lstate.h
+copy lua\ltm.h ..\inc\lua\Lua\ltm.h
+copy lua\llimits.h ..\inc\lua\Lua\llimits.h
+copy lua\lzio.h ..\inc\lua\Lua\lzio.h
+copy lua\lobject.h ..\inc\lua\Lua\lobject.h
+copy addon\ThirdpartyLib.h ..\inc\lua\addon\ThirdpartyLib.h
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_luaJIT|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(AURORALIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>System.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)lua.lib</OutputFile>
+      <AdditionalLibraryDirectories>$(AURORALIB_DIR)\Lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir ..\inc\lua
+mkdir ..\inc\lua\Lua
+mkdir ..\inc\lua\addon
+
+copy /Y .\*.h ..\inc\lua
+copy lua\luaconf.h ..\inc\lua\Lua\luaconf.h
+copy lua\lualib.h ..\inc\lua\Lua\lualib.h
+copy lua\lua.h ..\inc\lua\Lua\lua.h
+copy lua\lauxlib.h ..\inc\lua\Lua\lauxlib.h
+copy lua\lundump.h ..\inc\lua\Lua\lundump.h
+copy lua\lmem.h ..\inc\lua\Lua\lmem.h
+copy lua\lstate.h ..\inc\lua\Lua\lstate.h
+copy lua\ltm.h ..\inc\lua\Lua\ltm.h
+copy lua\llimits.h ..\inc\lua\Lua\llimits.h
+copy lua\lzio.h ..\inc\lua\Lua\lzio.h
+copy lua\lobject.h ..\inc\lua\Lua\lobject.h
+copy addon\ThirdpartyLib.h ..\inc\lua\addon\ThirdpartyLib.h
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_luaJIT|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(AURORALIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WINDOWS;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)lua.lib</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir ..\inc\lua
+mkdir ..\inc\lua\Lua
+
+copy /Y .\*.h ..\inc\lua
+copy lua\luaconf.h ..\inc\lua\Lua\luaconf.h
+copy lua\lualib.h ..\inc\lua\Lua\lualib.h
+copy lua\lua.h ..\inc\lua\Lua\lua.h
+copy lua\lauxlib.h ..\inc\lua\Lua\lauxlib.h
+copy lua\lundump.h ..\inc\lua\Lua\lundump.h
+copy lua\lmem.h ..\inc\lua\Lua\lmem.h
+copy lua\lstate.h ..\inc\lua\Lua\lstate.h
+copy lua\ltm.h ..\inc\lua\Lua\ltm.h
+copy lua\llimits.h ..\inc\lua\Lua\llimits.h
+copy lua\lzio.h ..\inc\lua\Lua\lzio.h
+copy lua\lobject.h ..\inc\lua\Lua\lobject.h
+copy addon\ThirdpartyLib.h ..\inc\lua\addon\ThirdpartyLib.h
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>..;..\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)lua.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Depends\Lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir ..\inc\lua
+mkdir ..\inc\lua\Lua
+mkdir ..\inc\lua\addon
+
+copy /Y .\*.h ..\inc\lua
+copy lua\luaconf.h ..\inc\lua\Lua\luaconf.h
+copy lua\lualib.h ..\inc\lua\Lua\lualib.h
+copy lua\lua.h ..\inc\lua\Lua\lua.h
+copy lua\lauxlib.h ..\inc\lua\Lua\lauxlib.h
+copy lua\lundump.h ..\inc\lua\Lua\lundump.h
+copy lua\lmem.h ..\inc\lua\Lua\lmem.h
+copy lua\lstate.h ..\inc\lua\Lua\lstate.h
+copy lua\ltm.h ..\inc\lua\Lua\ltm.h
+copy lua\llimits.h ..\inc\lua\Lua\llimits.h
+copy lua\lzio.h ..\inc\lua\Lua\lzio.h
+copy lua\lobject.h ..\inc\lua\Lua\lobject.h
+copy addon\ThirdpartyLib.h ..\inc\lua\addon\ThirdpartyLib.h
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(AURORALIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WINDOWS;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)lua.lib</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir ..\inc\lua
+mkdir ..\inc\lua\Lua
+
+copy /Y .\*.h ..\inc\lua
+copy lua\luaconf.h ..\inc\lua\Lua\luaconf.h
+copy lua\lualib.h ..\inc\lua\Lua\lualib.h
+copy lua\lua.h ..\inc\lua\Lua\lua.h
+copy lua\lauxlib.h ..\inc\lua\Lua\lauxlib.h
+copy lua\lundump.h ..\inc\lua\Lua\lundump.h
+copy lua\lmem.h ..\inc\lua\Lua\lmem.h
+copy lua\lstate.h ..\inc\lua\Lua\lstate.h
+copy lua\ltm.h ..\inc\lua\Lua\ltm.h
+copy lua\llimits.h ..\inc\lua\Lua\llimits.h
+copy lua\lzio.h ..\inc\lua\Lua\lzio.h
+copy lua\lobject.h ..\inc\lua\Lua\lobject.h
+copy addon\ThirdpartyLib.h ..\inc\lua\addon\ThirdpartyLib.h
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Lua\lapi.c" />
+    <ClCompile Include="Lua\lauxlib.c" />
+    <ClCompile Include="Lua\lbaselib.c" />
+    <ClCompile Include="Lua\lcode.c" />
+    <ClCompile Include="Lua\ldblib.c" />
+    <ClCompile Include="Lua\ldebug.c" />
+    <ClCompile Include="Lua\ldo.c" />
+    <ClCompile Include="Lua\ldump.c" />
+    <ClCompile Include="Lua\lfunc.c" />
+    <ClCompile Include="Lua\lgc.c" />
+    <ClCompile Include="Lua\linit.c" />
+    <ClCompile Include="Lua\liolib.c" />
+    <ClCompile Include="Lua\llex.c" />
+    <ClCompile Include="Lua\lmathlib.c" />
+    <ClCompile Include="Lua\lmem.c" />
+    <ClCompile Include="Lua\loadlib.c" />
+    <ClCompile Include="Lua\lobject.c" />
+    <ClCompile Include="Lua\lopcodes.c" />
+    <ClCompile Include="Lua\loslib.c" />
+    <ClCompile Include="Lua\lparser.c" />
+    <ClCompile Include="Lua\lstate.c" />
+    <ClCompile Include="Lua\lstring.c" />
+    <ClCompile Include="Lua\lstrlib.c" />
+    <ClCompile Include="Lua\ltable.c" />
+    <ClCompile Include="Lua\ltablib.c" />
+    <ClCompile Include="Lua\ltm.c" />
+    <ClCompile Include="Lua\lundump.c" />
+    <ClCompile Include="Lua\lvm.c" />
+    <ClCompile Include="Lua\lzio.c" />
+    <ClCompile Include="CppTable.cpp" />
+    <ClCompile Include="KLuaWrap.cpp" />
+    <ClCompile Include="KParamPackage.cpp" />
+    <ClCompile Include="luacompiler.c" />
+    <ClCompile Include="addon\bitOperateLib.c" />
+    <ClCompile Include="addon\KLuaUtils.cpp" />
+    <ClCompile Include="addon\packlib.c" />
+    <ClCompile Include="addon\ThirdpartyLib.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lua\lapi.h" />
+    <ClInclude Include="Lua\lauxlib.h" />
+    <ClInclude Include="Lua\lcode.h" />
+    <ClInclude Include="Lua\ldebug.h" />
+    <ClInclude Include="Lua\ldo.h" />
+    <ClInclude Include="Lua\lfunc.h" />
+    <ClInclude Include="Lua\lgc.h" />
+    <ClInclude Include="Lua\llex.h" />
+    <ClInclude Include="Lua\llimits.h" />
+    <ClInclude Include="Lua\lmem.h" />
+    <ClInclude Include="Lua\lobject.h" />
+    <ClInclude Include="Lua\lopcodes.h" />
+    <ClInclude Include="Lua\lparser.h" />
+    <ClInclude Include="Lua\lstate.h" />
+    <ClInclude Include="Lua\lstring.h" />
+    <ClInclude Include="Lua\ltable.h" />
+    <ClInclude Include="Lua\ltm.h" />
+    <ClInclude Include="Lua\lua.h" />
+    <ClInclude Include="Lua\luaconf.h" />
+    <ClInclude Include="Lua\lualib.h" />
+    <ClInclude Include="Lua\lundump.h" />
+    <ClInclude Include="Lua\lvm.h" />
+    <ClInclude Include="Lua\lzio.h" />
+    <ClInclude Include="CppTable.h" />
+    <ClInclude Include="KLuaDebugLinker.h" />
+    <ClInclude Include="KLuaTableHolder.h" />
+    <ClInclude Include="KLuaWrap.h" />
+    <ClInclude Include="KParamPackage.h" />
+    <ClInclude Include="luacompiler.h" />
+    <ClInclude Include="addon\ThirdpartyLib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lua\Makefile" />
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

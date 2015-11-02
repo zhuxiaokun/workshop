@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="OgreMaxExporter|Win32">
+      <Configuration>OgreMaxExporter</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="OgreMaxExporter|x64">
+      <Configuration>OgreMaxExporter</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Dll|Win32">
+      <Configuration>Release_Dll</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Dll|x64">
+      <Configuration>Release_Dll</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_o|Win32">
+      <Configuration>Release_o</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_o|x64">
+      <Configuration>Release_o</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Static|Win32">
+      <Configuration>Release_Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Static|x64">
+      <Configuration>Release_Static</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25F12A00-A19C-4819-AD69-4DE033ABA368}</ProjectGuid>
+    <RootNamespace>System</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='OgreMaxExporter|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='OgreMaxExporter|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='OgreMaxExporter|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='OgreMaxExporter|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>../Temp/$(ProjectName)/$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\Lib64\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|Win32'">
+    <OutDir>../Lib/$(Configuration)\</OutDir>
+    <IntDir>../Temp/$(ProjectName)/$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|x64'">
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>Release\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\Lib64\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='OgreMaxExporter|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='OgreMaxExporter|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|Win32'">
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dll|x64'">
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|x64'">
+    <OutDir>..\Lib64\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../3rd_lib/openssl 1.0.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;DISPLAY_CUR_LOG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)System.lib</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../3rd_lib/openssl 1.0.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;WINDOWS;_DEBUG;_LIB;DISPLAY_CUR_LOG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)System.lib</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>./;../3rd_lib/openssl 1.0.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)System.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>./;../3rd_lib/openssl 1.0.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)System.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>./;../3rd_lib/openssl 1.0.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)System.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='OgreMaxExporter|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)System.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='OgreMaxExporter|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)System.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>./;../3rd_lib/openssl 1.0.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)System.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>./;../3rd_lib/openssl 1.0.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)System.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Patterns\KBaseGroupMethod.h" />
+    <ClInclude Include="Patterns\KSingleton.h" />
+    <ClInclude Include="Patterns\KTFactoryMethod.h" />
+    <ClInclude Include="Sync\KClock.h" />
+    <ClInclude Include="Sync\KProcessMutex.h" />
+    <ClInclude Include="Sync\KSync.h" />
+    <ClInclude Include="Sync\KTimer.h" />
+    <ClInclude Include="Sync\RWMutex.h" />
+    <ClInclude Include="Collections\DynArray.h" />
+    <ClInclude Include="Collections\DynComplexArray.h" />
+    <ClInclude Include="Collections\KBinHeap.h" />
+    <ClInclude Include="Collections\KBitset.h" />
+    <ClInclude Include="Collections\KCircularBuffer.h" />
+    <ClInclude Include="Collections\KCoupler.h" />
+    <ClInclude Include="Collections\KHashTable.h" />
+    <ClInclude Include="Collections\KList.h" />
+    <ClInclude Include="Collections\KMapByVector.h" />
+    <ClInclude Include="Collections\KPipe.h" />
+    <ClInclude Include="Collections\KPriorityAffector.h" />
+    <ClInclude Include="Collections\KQueue.h" />
+    <ClInclude Include="Collections\KSDList.h" />
+    <ClInclude Include="Collections\KSimpleIndexTable.h" />
+    <ClInclude Include="Collections\KStack.h" />
+    <ClInclude Include="Collections\KString.h" />
+    <ClInclude Include="Collections\KTree.h" />
+    <ClInclude Include="Collections\KVector.h" />
+    <ClInclude Include="Memory\_heap_alloc.h" />
+    <ClInclude Include="Memory\_memory_pool.h" />
+    <ClInclude Include="Memory\KAlloc.h" />
+    <ClInclude Include="Memory\KAutoPoolObjPtr.h" />
+    <ClInclude Include="Memory\KBuffer64k.h" />
+    <ClInclude Include="Memory\KDataBuffer.h" />
+    <ClInclude Include="Memory\KMemory.h" />
+    <ClInclude Include="Memory\KMemoryCleaner.h" />
+    <ClInclude Include="Memory\KMemoryMonitor.h" />
+    <ClInclude Include="Memory\KMemoryRecordset.h" />
+    <ClInclude Include="Memory\KNew.h" />
+    <ClInclude Include="Memory\KObjectPool.h" />
+    <ClInclude Include="Memory\KPieceBufferStream.h" />
+    <ClInclude Include="Memory\KStepObjectPool.h" />
+    <ClInclude Include="Memory\KThreadLocalStorage.h" />
+    <ClInclude Include="Memory\multi_module.h" />
+    <ClInclude Include="Memory\RingBuffer.h" />
+    <ClInclude Include="Log\AsyncLogger.h" />
+    <ClInclude Include="Log\log.h" />
+    <ClInclude Include="Thread\KLinuxThreadImpl.h" />
+    <ClInclude Include="Thread\KThread.h" />
+    <ClInclude Include="Thread\KThreadImpl.h" />
+    <ClInclude Include="Thread\KWin32ThreadImpl.h" />
+    <ClInclude Include="Misc\KBitset.h" />
+    <ClInclude Include="Misc\KCache.h" />
+    <ClInclude Include="Misc\KCheckSum.h" />
+    <ClInclude Include="Misc\KCrc32.h" />
+    <ClInclude Include="Misc\KDatetime.h" />
+    <ClInclude Include="Misc\KEncoding.h" />
+    <ClInclude Include="Misc\KName.h" />
+    <ClInclude Include="Misc\KRefObject.h" />
+    <ClInclude Include="Misc\KSmartPointer.h" />
+    <ClInclude Include="Misc\KStream.h" />
+    <ClInclude Include="Misc\KStringtable.h" />
+    <ClInclude Include="Misc\KVariant.h" />
+    <ClInclude Include="Misc\rand.h" />
+    <ClInclude Include="Misc\RsaNew.h" />
+    <ClInclude Include="Misc\StreamInterface.h" />
+    <ClInclude Include="Misc\StrUtil.h" />
+    <ClInclude Include="Misc\md5.h" />
+    <ClInclude Include="Misc\md5new.h" />
+    <ClInclude Include="tinyxml\ascii.h" />
+    <ClInclude Include="tinyxml\asciitab.h" />
+    <ClInclude Include="tinyxml\expat.h" />
+    <ClInclude Include="tinyxml\expat_external.h" />
+    <ClInclude Include="tinyxml\gb2312tab.h" />
+    <ClInclude Include="tinyxml\iasciitab.h" />
+    <ClInclude Include="tinyxml\internal.h" />
+    <ClInclude Include="tinyxml\latin1tab.h" />
+    <ClInclude Include="tinyxml\nametab.h" />
+    <ClInclude Include="tinyxml\utf8tab.h" />
+    <ClInclude Include="tinyxml\xmldom.h" />
+    <ClInclude Include="tinyxml\xmlrole.h" />
+    <ClInclude Include="tinyxml\xmlstream.h" />
+    <ClInclude Include="tinyxml\xmltok.h" />
+    <ClInclude Include="tinyxml\xmltok_impl.h" />
+    <ClInclude Include="Cipher\jgencryptor.h" />
+    <ClInclude Include="Cipher\vgcipher.h" />
+    <ClInclude Include="Random\KRandom.h" />
+    <ClInclude Include="Random\KRandomGroup.h" />
+    <ClInclude Include="Algorithm\AngleComputer.h" />
+    <ClInclude Include="Algorithm\ArcChecker.h" />
+    <ClInclude Include="Algorithm\Distance.h" />
+    <ClInclude Include="Algorithm\LineChecker.h" />
+    <ClInclude Include="Time\KMilliTimer.h" />
+    <ClInclude Include="Time\KPerfCounter.h" />
+    <ClInclude Include="Time\KPerfHitchCounter.h" />
+    <ClInclude Include="Helper\KPooledMap.h" />
+    <ClInclude Include="Decimal\KInteger.h" />
+    <ClInclude Include="ThreadApp\KThreadFunctor.h" />
+    <ClInclude Include="ThreadApp\KThreadInstance.h" />
+    <ClInclude Include="ThreadApp\KThreadPool.h" />
+    <ClInclude Include="ThreadApp\KThreadProcessor.h" />
+    <ClInclude Include="ThreadApp\KThreadProcessorUnit.h" />
+    <ClInclude Include="ThreadApp\KThreadUnit.h" />
+    <ClInclude Include="ThreadApp\KThreadUnitQueue.h" />
+    <ClInclude Include="ThreadApp\KTPJobList.h" />
+    <ClInclude Include="ThreadApp\KTPKernel.h" />
+    <ClInclude Include="ThreadApp\KTPKernelMacros.h" />
+    <ClInclude Include="ThreadApp\KTPObjPool.h" />
+    <ClInclude Include="ThreadApp\KTPStream.h" />
+    <ClInclude Include="ThreadApp\KTPStreamPartitioner.h" />
+    <ClInclude Include="ThreadApp\KTPTask.h" />
+    <ClInclude Include="ThreadApp\KTPWorkflow.h" />
+    <ClInclude Include="ThreadApp\KTPWorkflowSerializer.h" />
+    <ClInclude Include="ThreadApp\KTPWorkload.h" />
+    <ClInclude Include="ThreadApp\KTPWorkPool.h" />
+    <ClInclude Include="File\KBinarySignFile.h" />
+    <ClInclude Include="File\KFile.h" />
+    <ClInclude Include="File\KMMap.h" />
+    <ClInclude Include="File\KTabFile.h" />
+    <ClInclude Include="File\KTabFileDiff.h" />
+    <ClInclude Include="File\KTabfileLoader.h" />
+    <ClInclude Include="File\KTabFileReader.h" />
+    <ClInclude Include="File\KTextReader.h" />
+    <ClInclude Include="Charset\KCharset.h" />
+    <ClInclude Include="Charset\KCharset_Ascii.h" />
+    <ClInclude Include="Charset\KCharset_Big5.h" />
+    <ClInclude Include="Charset\KCharset_GB2312.h" />
+    <ClInclude Include="Charset\KCharset_Japan.h" />
+    <ClInclude Include="Charset\KCharset_Normal.h" />
+    <ClInclude Include="Charset\KCharsetConvert.h" />
+    <ClInclude Include="Charset\KWordTree.h" />
+    <ClInclude Include="Algorithm\ContinuousBezier.h" />
+    <ClInclude Include="Algorithm\ContinuousCubicBezier.h" />
+    <ClInclude Include="Algorithm\KAlgorithm.h" />
+    <ClInclude Include="KAssertCallBack.h" />
+    <ClInclude Include="KMacro.h" />
+    <ClInclude Include="KPlatform.h" />
+    <ClInclude Include="Algorithm\KPolyline.h" />
+    <ClInclude Include="KType.h" />
+    <ClInclude Include="SockHeader.h" />
+    <ClInclude Include="Algorithm\VECTOR3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sync\KProcessMutex.cpp" />
+    <ClCompile Include="Sync\KSync.cpp" />
+    <ClCompile Include="Sync\RWMutex.cpp" />
+    <ClCompile Include="Collections\KTree.cpp" />
+    <ClCompile Include="Memory\KBuffer64k.cpp" />
+    <ClCompile Include="Memory\KDataBuffer.cpp" />
+    <ClCompile Include="Memory\KMemory.cpp" />
+    <ClCompile Include="Memory\KMemoryCleaner.cpp" />
+    <ClCompile Include="Memory\KMemoryMonitor.cpp" />
+    <ClCompile Include="Memory\KMemoryRecordset.cpp" />
+    <ClCompile Include="Memory\KThreadLocalStorage.cpp" />
+    <ClCompile Include="Log\AsyncLogger.cpp" />
+    <ClCompile Include="Log\log.cpp" />
+    <ClCompile Include="Thread\KLinuxThreadImpl.cpp" />
+    <ClCompile Include="Thread\KThread.cpp" />
+    <ClCompile Include="Thread\KThreadImpl.cpp" />
+    <ClCompile Include="Thread\KWin32ThreadImpl.cpp" />
+    <ClCompile Include="Misc\KBitset.cpp" />
+    <ClCompile Include="Misc\KCheckSum.cpp" />
+    <ClCompile Include="Misc\KCrc32.cpp" />
+    <ClCompile Include="Misc\KDatetime.cpp" />
+    <ClCompile Include="Misc\KEncoding.cpp" />
+    <ClCompile Include="Misc\KName.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="Misc\KRefObject.cpp" />
+    <ClCompile Include="Misc\KStream.cpp" />
+    <ClCompile Include="Misc\KStringtable.cpp" />
+    <ClCompile Include="Misc\rand.cpp" />
+    <ClCompile Include="Misc\RsaNew.cpp" />
+    <ClCompile Include="Misc\StrUtil.cpp" />
+    <ClCompile Include="Misc\md5c_opt.c" />
+    <ClCompile Include="tinyxml\xmldom.cpp" />
+    <ClCompile Include="tinyxml\xmlparse.c" />
+    <ClCompile Include="tinyxml\xmlrole.c" />
+    <ClCompile Include="tinyxml\xmlstream.cpp" />
+    <ClCompile Include="tinyxml\xmltok.c" />
+    <ClCompile Include="tinyxml\xmltok_impl.c" />
+    <ClCompile Include="tinyxml\xmltok_ns.c" />
+    <ClCompile Include="Cipher\jgencryptor.cpp" />
+    <ClCompile Include="Cipher\vgcipher.cpp" />
+    <ClCompile Include="Random\KRandom.cpp" />
+    <ClCompile Include="Random\KRandomGroup.cpp" />
+    <ClCompile Include="Algorithm\AngleComputer.cpp" />
+    <ClCompile Include="Algorithm\Distance.cpp" />
+    <ClCompile Include="Time\KMilliTimer.cpp" />
+    <ClCompile Include="Time\KPerfCounter.cpp" />
+    <ClCompile Include="Time\KPerfHitchCounter.cpp" />
+    <ClCompile Include="Decimal\KInteger.cpp" />
+    <ClCompile Include="ThreadApp\KThreadFunctor.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KThreadInstance.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KThreadPool.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KThreadProcessor.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KThreadProcessorUnit.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KThreadUnit.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KThreadUnitQueue.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KTPJobList.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KTPObjPool.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KTPStream.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KTPStreamPartitioner.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KTPTask.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KTPWorkflow.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KTPWorkflowSerializer.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="ThreadApp\KTPWorkPool.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="File\KBinarySignFile.cpp" />
+    <ClCompile Include="File\KFile.cpp" />
+    <ClCompile Include="File\KMMap.cpp" />
+    <ClCompile Include="File\KTabFile.cpp" />
+    <ClCompile Include="File\KTabFileDiff.cpp" />
+    <ClCompile Include="File\KTabfileLoader.cpp" />
+    <ClCompile Include="File\KTabFileReader.cpp" />
+    <ClCompile Include="File\KTextReader.cpp" />
+    <ClCompile Include="Charset\KCharset.cpp" />
+    <ClCompile Include="Charset\KCharset_Ascii.cpp" />
+    <ClCompile Include="Charset\KCharset_Big5.cpp" />
+    <ClCompile Include="Charset\KCharset_GB2312.cpp" />
+    <ClCompile Include="Charset\KCharset_Japan.cpp" />
+    <ClCompile Include="Charset\KCharset_Normal.cpp" />
+    <ClCompile Include="Charset\KCharsetConvert.cpp" />
+    <ClCompile Include="Charset\KWordTree.cpp" />
+    <ClCompile Include="KAssertCallBack.cpp" />
+    <ClCompile Include="KPlatform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Misc\KRefObject.inl" />
+    <None Include="Misc\KSmartPointer.inl" />
+    <None Include="ThreadApp\KTPObjPool.inl" />
+    <None Include="ThreadApp\KTPStream.inl" />
+    <None Include="ThreadApp\KTPStreamPartitioner.inl" />
+    <None Include="ThreadApp\KTPTask.inl" />
+    <None Include="ThreadApp\KTPWorkload.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

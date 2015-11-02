@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EventSystem">
+      <UniqueIdentifier>{68ed404a-930e-4070-88ad-2e70ac072925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFactory">
+      <UniqueIdentifier>{7d6c3061-68cf-45fa-a063-b86d5fe637bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configure">
+      <UniqueIdentifier>{67fe1b1a-2b78-4a7e-915e-ff9e15447835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommSession">
+      <UniqueIdentifier>{5fd07f11-f604-485c-a563-f8b3579434d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{44d77cbc-206f-4bdb-866b-b4d2f9733c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StringManager">
+      <UniqueIdentifier>{dbc341ed-c80c-42cb-a879-97771697bdfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Version">
+      <UniqueIdentifier>{775f1598-bd5f-4f55-ac9f-4f64c3f45300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{503e48ed-6796-4ce2-8de4-c46bb8fd04b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{450c237f-b6be-42d1-a367-21f16b376aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldObj">
+      <UniqueIdentifier>{bebb2e47-1390-4b9b-a97c-0383a1243b24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EventSystem\K_AS_Events.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\K_GS_Events.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\K_WS_Events.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\KEventEntity.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\KEventRegistry.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\KEventSystem.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\KLuaEventHandler.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\KStateCommand.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\KStateEvent.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\KUIInteractiveDefine.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory\KIdFactory.h">
+      <Filter>ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory\KObjectFactory.h">
+      <Filter>ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure\KAttrParser.h">
+      <Filter>Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure\KCoordinateTable.h">
+      <Filter>Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure\KErrorCode.h">
+      <Filter>Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure\KRuntimeCfg.h">
+      <Filter>Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure\KRuntimeLua.h">
+      <Filter>Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure\KServerSetting.h">
+      <Filter>Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure\KServerTabfileLoader.h">
+      <Filter>Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure\KTabfileLoader.h">
+      <Filter>Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure\KTaskSchedule.h">
+      <Filter>Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="CommSession\KCommonSessionKey.h">
+      <Filter>CommSession</Filter>
+    </ClInclude>
+    <ClInclude Include="CommSession\KDbStreamSession.h">
+      <Filter>CommSession</Filter>
+    </ClInclude>
+    <ClInclude Include="CommSession\KPropertyMap.h">
+      <Filter>CommSession</Filter>
+    </ClInclude>
+    <ClInclude Include="CommSession\KStreamSession.h">
+      <Filter>CommSession</Filter>
+    </ClInclude>
+    <ClInclude Include="CommSession\persist_player_sessions.h">
+      <Filter>CommSession</Filter>
+    </ClInclude>
+    <ClInclude Include="CommSession\tmp_player_sessions.h">
+      <Filter>CommSession</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer\KLogicTimer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManager\KMsgTanslate.h">
+      <Filter>StringManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManager\KStringManager.h">
+      <Filter>StringManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Version\Version.h">
+      <Filter>Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\KDatabaseAgent.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\KGameLayout.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\KLogicMap.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\KMapConfig.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\KMapSetting.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\KVillage.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\KWorldSetting.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObj\IAttrSet.h">
+      <Filter>WorldObj</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObj\IKPlayer.h">
+      <Filter>WorldObj</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObj\KAttrDefines.h">
+      <Filter>WorldObj</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObj\KObjectState.h">
+      <Filter>WorldObj</Filter>
+    </ClInclude>
+    <ClInclude Include="KAttrParser.h" />
+    <ClInclude Include="KConsoleThread.h" />
+    <ClInclude Include="KPacketGateTmpl.h" />
+    <ClInclude Include="KPacketQueue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EventSystem\KEventEntity.cpp">
+      <Filter>EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem\KEventRegistry.cpp">
+      <Filter>EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem\KEventSystem.cpp">
+      <Filter>EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory\KObjectFactory.cpp">
+      <Filter>ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Configure\KAttrParser.cpp">
+      <Filter>Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Configure\KCoordinateTable.cpp">
+      <Filter>Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Configure\KRuntimeCfg.cpp">
+      <Filter>Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Configure\KRuntimeLua.cpp">
+      <Filter>Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Configure\KServerTabfileLoader.cpp">
+      <Filter>Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Configure\KTabfileLoader.cpp">
+      <Filter>Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Configure\KTaskSchedule.cpp">
+      <Filter>Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="CommSession\KDbStreamSession.cpp">
+      <Filter>CommSession</Filter>
+    </ClCompile>
+    <ClCompile Include="CommSession\KPropertyMap.cpp">
+      <Filter>CommSession</Filter>
+    </ClCompile>
+    <ClCompile Include="CommSession\KStreamSession.cpp">
+      <Filter>CommSession</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer\KLogicTimer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="StringManager\KStringManager.cpp">
+      <Filter>StringManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Version\Version.cpp">
+      <Filter>Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\KDatabaseAgent.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\KGameLayout.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\KLogicMap.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\KMapConfig.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\KMapSetting.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\KVillage.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\KWorldSetting.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldObj\KObjectState.cpp">
+      <Filter>WorldObj</Filter>
+    </ClCompile>
+    <ClCompile Include="KAttrParser.cpp" />
+    <ClCompile Include="KConsoleThread.cpp" />
+  </ItemGroup>
+</Project>

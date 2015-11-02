@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85d0560f-33f1-4c47-945f-bdca70b58955}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8b987363-b411-4e49-baa5-781086823247}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Charset">
+      <UniqueIdentifier>{5b4dbc2c-ee96-459d-bbec-50028e9f62f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KCacheManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KCacheObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KCachePkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kmysqldb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KRecordDataFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KSQLTableCache_X_Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KTableCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KTableCache_X.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KTableCache_X_Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KTableCache_X_Tmpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KTableCacheCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KTableCacheReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KTableRecordData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KTableTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KTableTaskQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KVarBinary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sql_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Charset\KCharset.cpp">
+      <Filter>Charset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Charset\KCharset_Ascii.cpp">
+      <Filter>Charset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Charset\KCharset_Big5.cpp">
+      <Filter>Charset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Charset\KCharset_GB2312.cpp">
+      <Filter>Charset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Charset\KCharset_Japan.cpp">
+      <Filter>Charset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Charset\KCharset_Normal.cpp">
+      <Filter>Charset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Charset\KCharsetConvert.cpp">
+      <Filter>Charset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Charset\KWordTree.cpp">
+      <Filter>Charset</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KBlobBindColumn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KCacheManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KCacheObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KCachePkey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kmysqldb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KRecordDataFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KSQLTableCache_X_Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KTableCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KTableCache_Tmpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KTableCache_X.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KTableCache_X_Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KTableCache_X_Tmpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KTableCacheCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KTableCacheReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KTableRecordData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KTableTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KTableTaskQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KVarBinary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sql_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Charset\KCharset.h">
+      <Filter>Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Charset\KCharset_Ascii.h">
+      <Filter>Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Charset\KCharset_Big5.h">
+      <Filter>Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Charset\KCharset_GB2312.h">
+      <Filter>Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Charset\KCharset_Japan.h">
+      <Filter>Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Charset\KCharset_Normal.h">
+      <Filter>Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Charset\KCharsetConvert.h">
+      <Filter>Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Charset\KWordTree.h">
+      <Filter>Charset</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="..\Athena\Makefile.inc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathFinderLib", "PathFinderLib.vcproj", "{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{25F12A00-A19C-4819-AD69-4DE033ABA368} = {25F12A00-A19C-4819-AD69-4DE033ABA368}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "System", "..\System\System.vcproj", "{25F12A00-A19C-4819-AD69-4DE033ABA368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		OgreMaxExporter|Win32 = OgreMaxExporter|Win32
+		OgreMaxExporter|x64 = OgreMaxExporter|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.Debug|Win32.Build.0 = Debug|Win32
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.Debug|x64.ActiveCfg = Debug|x64
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.OgreMaxExporter|Win32.ActiveCfg = Release|Win32
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.OgreMaxExporter|Win32.Build.0 = Release|Win32
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.OgreMaxExporter|x64.ActiveCfg = Release|x64
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.OgreMaxExporter|x64.Build.0 = Release|x64
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.Release|Win32.ActiveCfg = Release|Win32
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.Release|Win32.Build.0 = Release|Win32
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.Release|x64.ActiveCfg = Release|x64
+		{4C84511A-0D69-4ABB-AFEB-F70FA90520DF}.Release|x64.Build.0 = Release|x64
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.Debug|Win32.Build.0 = Debug|Win32
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.Debug|x64.ActiveCfg = Debug|x64
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.Debug|x64.Build.0 = Debug|x64
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.OgreMaxExporter|Win32.ActiveCfg = OgreMaxExporter|Win32
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.OgreMaxExporter|Win32.Build.0 = OgreMaxExporter|Win32
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.OgreMaxExporter|x64.ActiveCfg = OgreMaxExporter|x64
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.OgreMaxExporter|x64.Build.0 = OgreMaxExporter|x64
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.Release|Win32.ActiveCfg = Release|Win32
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.Release|Win32.Build.0 = Release|Win32
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.Release|x64.ActiveCfg = Release|x64
+		{25F12A00-A19C-4819-AD69-4DE033ABA368}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

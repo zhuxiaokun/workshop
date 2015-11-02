@@ -1,0 +1,60 @@
+2015-11-01 13:45:27 [3100] [string "?"]:14: bad argument #1 to 'ldofile' (script file nod found!)
+	 at =[C]
+	ldofile(C) at =[C]
+	 at ? line:14
+	ldofile(C) at =[C]
+	 at ldofile('b.lua',20151029) line:1
+
+2015-11-01 13:46:21 [3100] [string "?"]:42: bad argument #3 to 'Log' (must be integer)
+	 at =[C]
+	Log(C) at =[C]
+	 at ? line:42
+	ldofile(C) at =[C]
+	 at ? line:14
+	ldofile(C) at =[C]
+	 at ldofile('b.lua',20151029) line:1
+
+2015-11-01 14:13:35 [5020] [string "ldofile('a.lua',20151029)"]:1: bad argument #1 to 'ldofile' (script file nod found!)
+	 at =[C]
+	ldofile(C) at =[C]
+	 at ldofile('a.lua',20151029) line:1
+	ldofile(C) at =[C]
+	 at ? line:14
+	ldofile(C) at =[C]
+	 at ldofile('a.lua',20151029) line:1
+
+2015-11-01 14:34:31 [3708] [string "?"]:61: attempt to index global 'analysis' (a nil value)
+	 at =[C]
+	reloadAcctData(Lua) at ? line:61
+	 at ? line:132
+	ldofile(C) at =[C]
+	 at a.lua line:14
+
+2015-11-01 14:34:35 [4252] [string "?"]:61: attempt to index global 'analysis' (a nil value)
+	 at =[C]
+	reloadAcctData(Lua) at ? line:61
+	 at ? line:132
+	ldofile(C) at =[C]
+	 at a.lua line:14
+
+2015-11-01 14:36:55 [3412] [string "?"]:61: attempt to index global 'analysis' (a nil value)
+	 at =[C]
+	reloadAcctData(Lua) at ? line:61
+	 at ? line:132
+	ldofile(C) at =[C]
+	 at a.lua line:14
+
+2015-11-01 14:37:33 [4116] [string "?"]:61: attempt to index global 'analysis' (a nil value)
+	 at =[C]
+	reloadAcctData(Lua) at ? line:61
+	 at ? line:132
+	ldofile(C) at =[C]
+	 at a.lua line:14
+
+2015-11-01 14:39:42 [1540] [string "?"]:61: attempt to index global 'analysis' (a nil value)
+	 at =[C]
+	reloadAcctData(Lua) at ? line:61
+	 at ? line:132
+	ldofile(C) at =[C]
+	 at a.lua line:14
+

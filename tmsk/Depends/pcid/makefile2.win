@@ -1,0 +1,98 @@
+!IF "$(mode)" == ""
+build_mode=debug
+!ELSE
+build_mode=release
+!ENDIF
+
+!IF "$(vc)"=="6"
+ver_suffix=_6
+vc7_dir=C:\Program Files\Microsoft Visual Studio\VC98
+ide_dir=$(vc7_dir)\..\Common\MSDev98\Bin
+!ELSE
+ver_suffix=
+vc7_dir=C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7
+ide_dir=$(vc7_dir)\..\Common7\IDE
+!ENDIF
+
+!IF "$(build_mode)"=="debug"
+obj_dir=.\debug$(ver_suffix)
+output=..\Lib\Debug
+name_suffix=_d
+debug_define=/D_DEBUG
+c_debug_opt=/ZI
+m_debug_opt=/MTd
+o_debug_opt=/Od
+l_debug_opt=/DEBUG
+n_debug_opt=/NODEFAULTLIB:libcmt
+!ELSE
+obj_dir=.\release$(ver_suffix)
+output=..\Lib\Release
+name_suffix=
+debug_define=/DNDEBUG
+c_debug_opt=/Zi
+m_debug_opt=/MD
+o_debug_opt=/O2
+l_debug_opt=/DEBUG
+n_debug_opt=
+!ENDIF
+
+#output=..\Lib
+
+stl_dir=..\\
+vc7_sdk=$(vc7_dir)\PlatformSDK
+
+PATH=$(vc7_dir)\bin;$(PATH)
+
+COMPILER=cl
+LINKER=link
+LIB=lib
+
+vc7_inc_path=$(vc7_dir)\include
+vc7_lib_path=$(vc7_dir)\lib
+
+stl_inc_path=$(stl_dir)\stlport
+stl_lib_path=$(stl_dir)\lib
+
+vc7sdk_inc_path=$(vc7_sdk)\include
+vc7sdk_lib_path=$(vc7_sdk)\lib
+
+base_name=pcid
+
+source=.
+
+target=$(output)\lib$(base_name)$(ver_suffix)$(name_suffix).lib
+
+includes=/I $(source) /I "$(vc7sdk_inc_path)" /I "$(vc7_inc_path)"
+
+defines=$(debug_define) /D_WINDOWS /D_WIN32_WINNT=0x0500 /DWIN32
+compile_option=/c /Gd /EHa /Yd $(m_debug_opt) $(c_debug_opt) $(o_debug_opt) /Fd"$(output)\lib$(base_name)$(ver_suffix)$(name_suffix).pdb"
+
+objs=$(obj_dir)\md5c_opt.obj \
+	$(obj_dir)\biosid.obj \
+	$(obj_dir)\cpuid.obj \
+	$(obj_dir)\diskid.obj \
+	$(obj_dir)\MachineID.obj \
+	$(obj_dir)\MemoryAccess.obj \
+	$(NULL)
+
+all:$(obj_dir) $(target)
+rebuild : clean all
+
+$(obj_dir):
+	mkdir $@
+
+{$(source)}.cpp{$(obj_dir)}.obj:
+	$(COMPILER) $(defines) $(compile_option) $(includes) /Fo$@ $**
+
+{$(source)}.c{$(obj_dir)}.obj:
+	$(COMPILER) $(defines) $(compile_option) $(includes) /Fo$@ $**
+
+$(target):$(objs)
+	@echo /OUT:$@ $(objs) > .\libcmd.txt
+	$(LIB) @.\libcmd.txt
+	@del /F .\libcmd.txt	
+
+clean:
+	del /F /Q $(objs)
+	if exist $(target) del /F /Q $(target)
+	del /F /Q $(output)\*$(base_name)$(name_suffix).*

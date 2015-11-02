@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_o|Win32">
+      <Configuration>Release_o</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{48D847EA-8895-4332-875C-373BE91ACAAA}</ProjectGuid>
+    <RootNamespace>CommonLogic</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\Depends;..\..\Depends\Inc;..\Inc;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)CommonLogic.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\Base;..\Inc;..\Base\System;..\Base\System\Log;..\Inc\PacketGate;..\Inc\Base;..\..\..\openssl 1.0.0\include;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;LUA_BUILD_AS_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>../Lib/Release/CommonLogic.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_o|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>..\..\Depends;..\..\Depends\Inc;..\Inc;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)CommonLogic.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EventSystem\K_AS_Events.h" />
+    <ClInclude Include="EventSystem\K_GS_Events.h" />
+    <ClInclude Include="EventSystem\K_WS_Events.h" />
+    <ClInclude Include="EventSystem\KEventEntity.h" />
+    <ClInclude Include="EventSystem\KEventRegistry.h" />
+    <ClInclude Include="EventSystem\KEventSystem.h" />
+    <ClInclude Include="EventSystem\KLuaEventHandler.h" />
+    <ClInclude Include="EventSystem\KStateCommand.h" />
+    <ClInclude Include="EventSystem\KStateEvent.h" />
+    <ClInclude Include="EventSystem\KUIInteractiveDefine.h" />
+    <ClInclude Include="ObjectFactory\KIdFactory.h" />
+    <ClInclude Include="ObjectFactory\KObjectFactory.h" />
+    <ClInclude Include="Configure\KAttrParser.h" />
+    <ClInclude Include="Configure\KCoordinateTable.h" />
+    <ClInclude Include="Configure\KErrorCode.h" />
+    <ClInclude Include="Configure\KRuntimeCfg.h" />
+    <ClInclude Include="Configure\KRuntimeLua.h" />
+    <ClInclude Include="Configure\KServerSetting.h" />
+    <ClInclude Include="Configure\KServerTabfileLoader.h" />
+    <ClInclude Include="Configure\KTabfileLoader.h" />
+    <ClInclude Include="Configure\KTaskSchedule.h" />
+    <ClInclude Include="CommSession\KCommonSessionKey.h" />
+    <ClInclude Include="CommSession\KDbStreamSession.h" />
+    <ClInclude Include="CommSession\KPropertyMap.h" />
+    <ClInclude Include="CommSession\KStreamSession.h" />
+    <ClInclude Include="CommSession\persist_player_sessions.h" />
+    <ClInclude Include="CommSession\tmp_player_sessions.h" />
+    <ClInclude Include="Timer\KLogicTimer.h" />
+    <ClInclude Include="StringManager\KMsgTanslate.h" />
+    <ClInclude Include="StringManager\KStringManager.h" />
+    <ClInclude Include="Version\Version.h" />
+    <ClInclude Include="Database\KDatabaseAgent.h" />
+    <ClInclude Include="Scene\KGameLayout.h" />
+    <ClInclude Include="Scene\KLogicMap.h" />
+    <ClInclude Include="Scene\KMapConfig.h" />
+    <ClInclude Include="Scene\KMapSetting.h" />
+    <ClInclude Include="Scene\KVillage.h" />
+    <ClInclude Include="Scene\KWorldSetting.h" />
+    <ClInclude Include="WorldObj\IAttrSet.h" />
+    <ClInclude Include="WorldObj\IKPlayer.h" />
+    <ClInclude Include="WorldObj\KAttrDefines.h" />
+    <ClInclude Include="WorldObj\KObjectState.h" />
+    <ClInclude Include="KAttrParser.h" />
+    <ClInclude Include="KConsoleThread.h" />
+    <ClInclude Include="KPacketGateTmpl.h" />
+    <ClInclude Include="KPacketQueue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EventSystem\KEventEntity.cpp" />
+    <ClCompile Include="EventSystem\KEventRegistry.cpp" />
+    <ClCompile Include="EventSystem\KEventSystem.cpp" />
+    <ClCompile Include="ObjectFactory\KObjectFactory.cpp" />
+    <ClCompile Include="Configure\KAttrParser.cpp" />
+    <ClCompile Include="Configure\KCoordinateTable.cpp" />
+    <ClCompile Include="Configure\KRuntimeCfg.cpp" />
+    <ClCompile Include="Configure\KRuntimeLua.cpp" />
+    <ClCompile Include="Configure\KServerTabfileLoader.cpp" />
+    <ClCompile Include="Configure\KTabfileLoader.cpp" />
+    <ClCompile Include="Configure\KTaskSchedule.cpp" />
+    <ClCompile Include="CommSession\KDbStreamSession.cpp" />
+    <ClCompile Include="CommSession\KPropertyMap.cpp" />
+    <ClCompile Include="CommSession\KStreamSession.cpp" />
+    <ClCompile Include="Timer\KLogicTimer.cpp" />
+    <ClCompile Include="StringManager\KStringManager.cpp" />
+    <ClCompile Include="Version\Version.cpp" />
+    <ClCompile Include="Database\KDatabaseAgent.cpp" />
+    <ClCompile Include="Scene\KGameLayout.cpp" />
+    <ClCompile Include="Scene\KLogicMap.cpp" />
+    <ClCompile Include="Scene\KMapConfig.cpp" />
+    <ClCompile Include="Scene\KMapSetting.cpp" />
+    <ClCompile Include="Scene\KVillage.cpp" />
+    <ClCompile Include="Scene\KWorldSetting.cpp" />
+    <ClCompile Include="WorldObj\KObjectState.cpp" />
+    <ClCompile Include="KAttrParser.cpp" />
+    <ClCompile Include="KConsoleThread.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

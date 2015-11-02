@@ -1,0 +1,63 @@
+2015-11-01 12:12:56 [5004] a.lua:2: bad argument #1 to 'ldofile' (script file nod found!)
+	 at =[C]
+	ldofile(C) at =[C]
+	 at @a.lua line:2
+	dofile(C) at =[C]
+	 at dofile('a.lua') line:1
+
+2015-11-01 12:18:25 [800] a.lua:2: bad argument #1 to 'ldofile' (script file nod found!)
+	 at =[C]
+	ldofile(C) at =[C]
+	 at @a.lua line:2
+	dofile(C) at =[C]
+	 at dofile('a.lua') line:1
+
+2015-11-01 12:19:26 [800] a.lua:2: bad argument #1 to 'ldofile' (script file nod found!)
+	 at =[C]
+	ldofile(C) at =[C]
+	 at @a.lua line:2
+	dofile(C) at =[C]
+	 at dofile('a.lua') line:1
+
+2015-11-01 12:23:17 [3396] [string "?"]:47: attempt to call method 'locaData' (a nil value)
+	locaData(C) at =[C]
+	reloadAcctData(Lua) at ? line:47
+	 at ? line:118
+	ldofile(C) at =[C]
+	 at @a.lua line:2
+	dofile(C) at =[C]
+	 at dofile('a.lua') line:1
+
+2015-11-01 12:40:48 [4024] ../settings/util/dbutil.lua:12: bad argument #2 to 'format' (must be string)
+	 at =[C]
+	format(C) at =[C]
+	truncateTable(Lua) at @../settings/util/dbutil.lua line:12
+	resetAnalysisTable(Lua) at @../settings/util/dbutil.lua line:24
+	 at ? line:141
+	ldofile(C) at =[C]
+	 at @a.lua line:2
+	dofile(C) at =[C]
+	 at dofile('a.lua') line:1
+
+2015-11-01 13:01:43 [3292] [string "?"]:155: attempt to call global 'insertAnalysis_dahao' (a nil value)
+	insertAnalysis_dahao(C) at =[C]
+	 at ? line:155
+	ldofile(C) at =[C]
+	 at @a.lua line:2
+	dofile(C) at =[C]
+	 at dofile('a.lua') line:1
+
+2015-11-01 14:41:40 [1800] [string "?"]:61: attempt to index global 'analysis' (a nil value)
+	 at =[C]
+	reloadAcctData(Lua) at ? line:61
+	 at ? line:132
+	ldofile(C) at =[C]
+	 at a.lua line:14
+
+2015-11-01 14:42:31 [3940] [string "?"]:61: attempt to index global 'analysis' (a nil value)
+	 at =[C]
+	reloadAcctData(Lua) at ? line:61
+	 at ? line:132
+	ldofile(C) at =[C]
+	 at a.lua line:14
+

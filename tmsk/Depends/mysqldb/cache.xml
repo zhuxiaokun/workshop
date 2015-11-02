@@ -1,0 +1,15 @@
+<Cache>
+	<Connection host="localhost" port="3306" db="test" user="root" password="" />
+	<Table name="test.tblCache" reset="1">
+		<Map file="tblCache.mmap" capacity="1000" />
+		<Flush modify="5" delete="5" checkout="5" />
+		<Columns> <!-- int8,uint8,int16,uint16,int32,uint32,int64,uint64,string,binary,timestamp -->
+			<!-- 第一个字段需要满足的条件 1.主键 2.自增 3.数据类型int32,uint32,int64,uint64 -->
+			<Field name="ObjectID" type="int32" />
+			<Field name="FirstName" type="string" length="32" default="" />
+			<Field name="LastName" type="string" length="32" default="" />
+			<Field name="Sex" type="int8" default="0" />
+			<Field name="LastModified" type="timestamp" default="now()" />
+		</Columns>
+	</Table>
+</Cache>
