@@ -50,7 +50,7 @@ function insertAnalysis_tradeMaster(cnn, dbTableName, t)
 	end
 
 	local sql = string.format('insert into %s(yyyymmdd,platform,uid,trade_count,zone_count) \
-		values(%d,"%s","%s",%d)', dbTableName,yyyymmdd,platform,uid,tradeCount, zoneCount)
+		values(%d,"%s","%s",%d,%d)', dbTableName,yyyymmdd,platform,uid,tradeCount, zoneCount)
 	local ret = cnn:execute(sql)
 	if not ret then
 		Log(LOG_CONSOLE+LOG_ERROR, 'error: insert in t_dahao, %d %s, %s', yyyymmdd, uid, cnn:getLastError())

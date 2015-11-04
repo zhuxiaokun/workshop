@@ -72,7 +72,7 @@ end
 local function isTrade_empty_o(tradeObj,ctx)
 	return tradeObj:empty_o() and tradeObj:has_i(2000,2002,2003,2004,2016)
 end
-local function onEachServer_countTradeServer(serverObj, ctx)
+local function onEachServer_countTradeServer(serverName, serverObj, ctx)
 	if serverObj:tradeCount() > 0 then
 		ctx[3] = ctx[3] + 1
 	end
