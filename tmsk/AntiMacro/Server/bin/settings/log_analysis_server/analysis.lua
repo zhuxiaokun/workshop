@@ -72,6 +72,12 @@ end
 local function isTrade_empty_o(tradeObj,ctx)
 	return tradeObj:empty_o() and tradeObj:has_i(2000,2002,2003,2004,2016)
 end
+local function onEachServer_countTradeServer(serverObj, ctx)
+	if serverObj:tradeCount() > 0 then
+		ctx[3] = ctx[3] + 1
+	end
+	return true
+end
 
 local i_tradeCount = 0
 local function onEach_Acct_for_tradeCount(acctObj, ctx)
@@ -82,7 +88,8 @@ local function onEach_Acct_for_tradeCount(acctObj, ctx)
 	if n >= minTradeCount then
 		local c = acctObj:countTrade(isTrade_empty_o, nil)
 		if c >= minMacroTradeCount then
-			local t = {name, c }
+			local t = {name, c, 0}
+			acctObj:foreachServer(onEachServer_countTradeServer, t)
 			table.insert(ctx, t)
 		end
 	end
@@ -166,12 +173,14 @@ Log(LOG_DEBUG, '[result] ÐòºÅ  ÕËºÅ  ÊýÁ¿')
 for i=1,#t_tradeCount,1 do
 	local acctName = t_tradeCount[i][1]
 	local tradeCount = t_tradeCount[i][2]
+	local serverCount = t_tradeCount[i][3]
 	Log(LOG_DEBUG, '[result] %d  %s  %d', i, acctName, tradeCount)
 	local ti = {
 		yyyymmdd=yyyymmdd,
 		platform = platform,
 		uid = acctName,
 		trade_count = tradeCount,
+		zone_count = serverCount,
 	}
 	insertAnalysis_tradeMaster(cnn, tbTradeMaster, ti)
 end

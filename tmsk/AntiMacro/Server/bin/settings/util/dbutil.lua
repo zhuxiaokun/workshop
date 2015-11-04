@@ -43,12 +43,14 @@ function insertAnalysis_tradeMaster(cnn, dbTableName, t)
 	local platform = t.platform
 	local uid = t.uid
 	local tradeCount = t.trade_count
+	local zoneCount = t.zone_count
 
 	if platform == nil then
 		platform = 'unknown'
 	end
 
-	local sql = string.format('insert into %s(yyyymmdd,platform,uid,trade_count) values(%d,"%s","%s",%d)', dbTableName,yyyymmdd,platform,uid,tradeCount)
+	local sql = string.format('insert into %s(yyyymmdd,platform,uid,trade_count,zone_count) \
+		values(%d,"%s","%s",%d)', dbTableName,yyyymmdd,platform,uid,tradeCount, zoneCount)
 	local ret = cnn:execute(sql)
 	if not ret then
 		Log(LOG_CONSOLE+LOG_ERROR, 'error: insert in t_dahao, %d %s, %s', yyyymmdd, uid, cnn:getLastError())
